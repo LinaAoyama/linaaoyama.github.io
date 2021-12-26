@@ -14,11 +14,11 @@ author: Lina Aoyama
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "/content/aboutme/aboutme.md"
   Research: "/content/research/research.md"
-  Publications: "/content/publications"
-  Outreach: "/content/outreach/outreach"
-  News: "news"
+  Publications: "/content/publications/publications.md"
+  Outreach: "/content/outreach/outreach.md"
+  News: "/content/news/index.html"
     #- Beautiful Jekyll: "https://beautifuljekyll.com/"
     #- Learn markdown: "https://www.markdowntutorial.com/"
   
@@ -254,7 +254,7 @@ plugins:
   - jekyll-sitemap
 
 # Redirect for news posts
-paginate_path: "/news/page:num/"
+paginate_path: "/content/news/page:num/"
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
