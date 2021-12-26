@@ -15,9 +15,9 @@ author: Lina Aoyama
 
 navbar-links:
   About Me: "aboutme"
-  Research: "content/research/research"
-  Publications: "content/publications/publications"
-  Outreach: "content/outreach/outreach"
+  Research: "/content/research/research.md"
+  Publications: "/content/publications"
+  Outreach: "/content/outreach/outreach"
   News: "news"
     #- Beautiful Jekyll: "https://beautifuljekyll.com/"
     #- Learn markdown: "https://www.markdowntutorial.com/"
