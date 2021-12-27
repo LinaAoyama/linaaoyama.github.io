@@ -14,19 +14,11 @@ author: Lina Aoyama
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-<<<<<<< HEAD
-  About Me: "/content/aboutme/aboutme.md"
-  Research: "/content/research/research.md"
-  Publications: "/content/publications/publications.md"
-  Outreach: "/content/outreach/outreach.md"
-  News: "/content/news/index.html"
-=======
   About Me: "aboutme"
-  Research: "content/research/research"
-  Publications: "content/publications/publications"
-  Outreach: "content/outreach/outreach"
+  Research: "/content/research/research"
+  Publications: "/content/publications/publications"
+  Outreach: "/content/outreach/outreach"
   News: "news"
->>>>>>> parent of 92d11ec (trouble shoot md stuff)
     #- Beautiful Jekyll: "https://beautifuljekyll.com/"
     #- Learn markdown: "https://www.markdowntutorial.com/"
   
