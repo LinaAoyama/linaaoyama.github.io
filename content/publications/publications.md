@@ -8,8 +8,8 @@ Weiss-Lehman, C. P., Werner, C. M., Bowler, C. H., Hallett, L. M., Mayfield, M. 
 
 Aoyama, L., Bartolome, J. W., Silva, L., and Silver, W. L. 2022. Using Ecological Site Descriptions to make ranch-level decisions about where to manage for soil organic carbon. In Press, California Agriculture. 
 
-Hernández, E., E. A. Shaw, L. Aoyama, A. Brambila, C. Niederer, S. B. Weiss, L. M. Hallett. 2021. Fire and grazing as tools to restore serpentine grasslands under global change. Restoration Ecology 29(S1):e13353.   https://doi.org/10.1111/rec.13353
+Hernández, E., E. A. Shaw, L. Aoyama, A. Brambila, C. Niederer, S. B. Weiss, L. M. Hallett. 2021. Fire and grazing as tools to restore serpentine grasslands under global change. Restoration Ecology 29(S1):e13353.  https://doi.org/10.1111/rec.13353
 
-Aoyama, L., Bartolome, J. W., and Hallett, L. M. 2020. Incorporating diversity measures into Ecological Site Descriptions to manage biodiversity on heterogeneous landscapes. Rangelands 42(4):93-105.  https://doi.org/10.1016/j.rala.2020.05.002
+Aoyama, L., Bartolome, J. W., and Hallett, L. M. 2020. Incorporating diversity measures into Ecological Site Descriptions to manage biodiversity on heterogeneous landscapes. Rangelands 42(4):93-105. https://doi.org/10.1016/j.rala.2020.05.002
 
-Aoyama, L. and Huntsinger, L. 2018. Are landowners, managers, and range management academics on the same page about conservation? Rangelands 41(1):61-69.  https://doi.org/10.1016/j.rala.2018.10.001
+Aoyama, L. and Huntsinger, L. 2018. Are landowners, managers, and range management academics on the same page about conservation? Rangelands 41(1):61-69. https://doi.org/10.1016/j.rala.2018.10.001
