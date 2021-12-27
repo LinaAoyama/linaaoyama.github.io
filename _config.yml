@@ -18,7 +18,7 @@ navbar-links:
   Research: "/content/research/research"
   Publications: "/content/publications/publications"
   Outreach: "/content/outreach/outreach"
-  News: "news"
+  News: "/content/news"
     #- Beautiful Jekyll: "https://beautifuljekyll.com/"
     #- Learn markdown: "https://www.markdowntutorial.com/"
   
