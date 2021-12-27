@@ -14,7 +14,7 @@ author: Lina Aoyama
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "/content/aboutme"
   Research: "/content/research/research"
   Publications: "/content/publications/publications"
   Outreach: "/content/outreach/outreach"
