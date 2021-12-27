@@ -17,7 +17,7 @@ navbar-links:
   About Me: "/content/aboutme"
   Research: "/content/research"
   Publications: "/content/publications"
-  Outreach: "/content/outreach"
+  Restoria: "/content/restoria"
   News: "/content/news"
     #- Beautiful Jekyll: "https://beautifuljekyll.com/"
     #- Learn markdown: "https://www.markdowntutorial.com/"
