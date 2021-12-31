@@ -5,17 +5,17 @@ title: Restoria
 
 **Restoria** is a competitive, card-driven board game designed by me and my husband, inspired by our love for ecology and games. With a focus on California flora, its gameplay is built around the four key ecological processes of community assembly: selection, drift, dispersal, and speciation. 
 
-![box](/../../assets/img/restoria/box.jpg){: .mx-auto.d-block :}
-
 Each player chooses and arranges different species of plants to build a thriving community. Throughout the game, events like drought, invasive species, or wildfire will occur, which will affect each community based on its composition. The player whose community has the highest biomass at the end of the game, wins! 
-
-![cards](/../../assets/img/restoria/cards.jpg){: .mx-auto.d-block :}
 
 - Players: 2-6 people
 - Age: 8+
 - Time: 30-60 min
 
+![cards](/../../assets/img/restoria/cards.jpg){: .mx-auto.d-block :}
+*Photo credit: Calvin Penkauskas*
+
 ![playing](/../../assets/img/restoria/playing.jpg){: .mx-auto.d-block :}
+*Lab retreat August 2021*
 
 ### Our Story ###
 My husband, Brent Batas, and I are the co-creators of **Restoria**. Brent is a professional game designer, and I am a plant ecologist. When the pandemic hit in 2020, I started painting California plants in my free time. Brent had a brilliant idea to use those illustrations to make our own card game. We collaborated on the gameplay over several months, and iteratively improved the cards to make the game scientifically sound and playable. Our friends helped us test-play the game to assure that it is not only fun but accessible to everyone. In the end, we wanted to make a game that we would enjoy playing with our friends. We also made a conscious decision to make it portable, so we can bring it to fieldwork or camping trips. 
