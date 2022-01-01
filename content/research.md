@@ -1,10 +1,28 @@
 ---
 layout: page
 title: Research
-subtitle: Where I work and what I do
 ---
+### Post-fire Restoration
+![EOARC](/../../assets/img/research/headshot.jpg){: .mx-auto.d-block : width="250"}
+*
 
-### California grasslands
+### Traits-based Community Assembly
+![Roots](/../../assets/img/research/Roots.jpg){: .mx-auto.d-block : width="250"}
+*
 
-### Great Basin sagebrush steppe
+### Species Coexistence
+![Lasthenia](/../../assets/img/research/Lasthenia.jpg){: .mx-auto.d-block : width="250"}
+*Lasthenia conjugens in vernal pools at Travis Air Force Base, Solano Co. CA. Photo credit: Akasha Faist*
+
+
+
+### Ecological Site Description
+![Tejon](/../../assets/img/research/Tejon.jpg){: .mx-auto.d-block : width="250"}
+
+### Conservation and Agriculture
+![cows](/../../assets/img/research/cows.jpg){: .mx-auto.d-block : width="250"}
+
+
+
+
 
