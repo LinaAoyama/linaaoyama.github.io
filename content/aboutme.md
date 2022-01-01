@@ -1,6 +1,5 @@
 ---
 layout: page
-title: About
 ---
 
 ![headshot](/../../assets/img/aboutme/headshot.jpg){: .mx-auto.d-block : width="250"}
