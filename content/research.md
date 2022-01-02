@@ -2,25 +2,37 @@
 layout: page
 title: Research
 ---
-### Post-fire Restoration
-![EOARC](/../../assets/img/research/headshot.jpg){: .mx-auto.d-block : width="250"}
-*
+
+### Post-fire Restoration Genetic diversity 
+![bluebunch](/../../assets/img/research/bluebunch.jpg){: .mx-auto.d-block : width="350"}
+*Burned area seeded with bluebunch wheatgrass (Pseudoroegneria spicata) in Owyhee Co. ID.*
+
+Native plant seeding after wildfires is a common restoration practice throughout the Great Basin. Native perennial grass species are often included in the seed mix to prevent soil erosion and provide forage. What are the effects of seeding on the genetic diversity of restored and neighboring populations? I am exploring this question by genotyping bluebunch wheatgrass in an area affected by Soda Fire that burned in 2015. 
+
+### Seed sourcing and Post-fire Restoration
+![eoarc](/../../assets/img/research/eoarc.jpg){: .mx-auto.d-block : width="350"}
+*Field experiment at the Northern Great Basin Experimental Range in Harney Co. OR.*
+
 
 ### Traits-based Community Assembly
-![Roots](/../../assets/img/research/Roots.jpg){: .mx-auto.d-block : width="250"}
-*
+![roots](/../../assets/img/research/roots.jpg){: .mx-auto.d-block : width="350"}
+*Roots of slender wild oat (Avena barbata) grown in greenhouse* 
 
-### Species Coexistence
-![Lasthenia](/../../assets/img/research/Lasthenia.jpg){: .mx-auto.d-block : width="250"}
-*Lasthenia conjugens in vernal pools at Travis Air Force Base, Solano Co. CA. Photo credit: Akasha Faist*
 
+### Diagnosing Restoration with Species Coexistence
+![lasthenia](/../../assets/img/research/lasthenia.jpg){: .mx-auto.d-block : width="350"}
+*Contra Costa goldfields (Lasthenia conjugens) in vernal pools at Travis Air Force Base, Solano Co. CA. Photo credit: Dr. Akasha Faist*
 
 
 ### Ecological Site Description
-![Tejon](/../../assets/img/research/Tejon.jpg){: .mx-auto.d-block : width="250"}
+![tejon](/../../assets/img/research/tejon.jpg){: .mx-auto.d-block : width="350"}
+*Hillside of the Tehachapi Mountains at Tejon Ranch, Kern Co. CA.* 
 
-### Conservation and Agriculture
-![cows](/../../assets/img/research/cows.jpg){: .mx-auto.d-block : width="250"}
+
+### Rangeland Conservation
+![cow](/../../assets/img/research/cow.jpg){: .mx-auto.d-block : width="350"}
+*A bull at Tejon Ranch, Kern Co. CA.*
+
 
 
 
