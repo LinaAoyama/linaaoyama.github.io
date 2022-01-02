@@ -20,7 +20,7 @@ Native plant seeding after wildfires is a common restoration practice throughout
 
 
 ### Species Coexistence
-![lasthenia](/../../assets/img/research/lasthenia1.jpg){: .mx-auto.d-block : width="350"}
+![lasthenia](/../../assets/img/research/lasthenia.jpg){: .mx-auto.d-block : width="350"}
 *Contra Costa goldfields (Lasthenia conjugens) in vernal pools at Travis Air Force Base, Solano Co. CA. Photo credit: Dr. Akasha Faist*
 
 Modern Coexistence Theory 
