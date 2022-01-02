@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---
 
-### Post-fire Restoration Genetic diversity 
+### Genetic Diversity after Post-fire Restoration
 ![bluebunch](/../../assets/img/research/bluebunch.jpg){: .mx-auto.d-block : width="350"}
 *Burned area seeded with bluebunch wheatgrass (Pseudoroegneria spicata) in Owyhee Co. ID.*
 
@@ -19,10 +19,11 @@ Native plant seeding after wildfires is a common restoration practice throughout
 *Roots of slender wild oat (Avena barbata) grown in greenhouse* 
 
 
-### Diagnosing Restoration with Species Coexistence
-![lasthenia](/../../assets/img/research/lasthenia.jpg){: .mx-auto.d-block : width="350"}
+### Species Coexistence
+![lasthenia](/../../assets/img/research/lasthenia1.jpg){: .mx-auto.d-block : width="350"}
 *Contra Costa goldfields (Lasthenia conjugens) in vernal pools at Travis Air Force Base, Solano Co. CA. Photo credit: Dr. Akasha Faist*
 
+Modern Coexistence Theory 
 
 ### Ecological Site Description
 ![tejon](/../../assets/img/research/tejon.jpg){: .mx-auto.d-block : width="350"}
