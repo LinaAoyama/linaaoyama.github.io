@@ -1105,5 +1105,6 @@ pre {
 	display: block;
 	margin-top: -28px;
 	text-align: center;
-	text-decoration: italic;
+	font-style: italic;
+	font-size:  0.9rem;
 }
