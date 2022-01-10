@@ -11,11 +11,15 @@ Each player chooses and arranges different species of plants to build a thriving
 - Age: 8+
 - Time: 30-60 min
 
-![cards](/../../assets/img/restoria/cards.jpg){: .mx-auto.d-block : width="350"}
-*Photo credit: Calvin Penkauskas*
+![cards](/../../assets/img/restoria/cards-small.jpg)
+<div class="caption">
+Photo credit: Calvin Penkauskas
+</div>
 
-![playing](/../../assets/img/restoria/playing.jpg){: .mx-auto.d-block : width="350"}
-*Lab retreat August 2021*
+![playing](/../../assets/img/restoria/playing-small.jpg)
+<div class="caption">
+Lab retreat August 2021
+</div>
 
 ### Our Story ###
 My husband, Brent Batas, and I are the co-creators of **Restoria**. Brent is a professional game designer, and I am a plant ecologist. When the pandemic hit in 2020, I started painting California plants in my free time. Brent had a brilliant idea to use those illustrations to make our own card game. We collaborated on the gameplay over several months, and iteratively improved the cards to make the game scientifically sound and playable. Our friends helped us playtest the game to assure that it is not only fun but accessible to everyone. In the end, we wanted to make a game that we would enjoy playing with our friends. We also made a conscious decision to make it portable, so we can bring it to fieldwork or camping trips. 
