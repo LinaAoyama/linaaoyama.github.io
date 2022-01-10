@@ -1100,3 +1100,10 @@ pre {
     display: inline-block;
   }
 }
+
+.caption {
+	display: block;
+	margin-top: -28px;
+	text-align: center;
+	text-decoration: italic;
+}
