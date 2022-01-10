@@ -11,14 +11,10 @@ Each player chooses and arranges different species of plants to build a thriving
 - Age: 8+
 - Time: 30-60 min
 
-![cards](/../../assets/img/restoria/cards-small.jpg)
+<img src="/../../assets/img/restoria/cards-small.jpg" width=360>
+<img src="/../../assets/img/restoria/playing-small.jpg" width=360>
 <div class="caption">
-Photo credit: Calvin Penkauskas
-</div>
-
-![playing](/../../assets/img/restoria/playing-small.jpg)
-<div class="caption">
-Lab retreat August 2021
+Photo credit: Calvin Penkauskas. Lab retreat August 2021
 </div>
 
 ### Our Story ###
