@@ -10,9 +10,9 @@ Native plant seeding after wildfires is a common restoration practice throughout
 
 ### Seed Provenance in Post-fire Restoration
 ![eoarc](/../../assets/img/research/eoarc.jpg){: .mx-auto.d-block : width="350"}
-*Field experiment at the Northern Great Basin Experimental Range, OR.*
+*Field experiment at the Northern Great Basin Experimental Range, Harney Co. OR.*
 
-The seed provenance, or the geographic origin of a seed source, is an important decision in restoration. The common strategy is to use local seeds, based on the argument that local plants are best adapted to their environment. However, the impacts of annual grass invasion and climate change on plant populations begs the question, will the plants we plant now persist into the future? Seed sourcing that considers anticipated future environmental conditions of a restoration site may improve restoration success. To test this, I am conducting a field experiment at the Northern Great Basin Experimental Range in Harney County, Oregon.
+The seed provenance, or the geographic origin of a seed source, is an important decision in restoration. The common strategy is to use local seeds, based on the argument that local plants are best adapted to their environment. However, the impacts of annual grass invasion and climate change on plant populations begs the question, will the plants we plant now persist into the future? Seed sourcing that considers anticipated future environmental conditions of a restoration site may improve restoration success. To test this, I am conducting a common garden experiment on a native grass species, bottlebrush squirreltail (Elymus elymoides).
 
 ### Bridging Species Coexistence and Restoration
 ![lasthenia](/../../assets/img/research/lasthenia.jpg){: .mx-auto.d-block : width="350"}
