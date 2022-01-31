@@ -2,8 +2,8 @@
 layout: page
 title: Restoria
 ---
-<img src="/../../assets/img/restoria/cards-small.jpg" width=360>
 <img src="/../../assets/img/restoria/box-small.jpg" width=360>
+<img src="/../../assets/img/restoria/cards-small.jpg" width=360>
 
 **Restoria** is a competitive, card-driven board game designed by me and my husband, inspired by our love for ecology and games. With a focus on California flora, its gameplay is built around the four key ecological processes of community assembly: selection, drift, dispersal, and speciation. 
 
