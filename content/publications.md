@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 ---
-<img src="/../../assets/img/restoria/castillea-small.jpg">
+<img src="/../../assets/img/publication/castillea-small.jpg">
 
 Aoyama, L., Shoemaker, L. G., Gilbert, B., Collinge, S. K., Faist, A. M., Shackelford, N., Temperton, V. M., Barabas, G., Larios, L., Ladouceur, E., Godoy, O., Bowler, C., and Hallett, L. M. 2022. Diagnosing restoration trajectories using modern coexistence theory. In Review, Ecological Applications. 
 
