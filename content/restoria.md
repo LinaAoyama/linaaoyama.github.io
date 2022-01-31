@@ -15,7 +15,7 @@ Each player chooses and arranges different species of plants to build a thriving
 
 
 ### Our Story ###
-<img src="/../../assets/img/restoria/bent-lina.jpg">
+<img src="/../../assets/img/restoria/brent-lina.jpg">
 
 My husband, Brent Batas, and I are the co-creators of **Restoria**. Brent is a professional game designer, and I am a plant ecologist. When the pandemic hit in 2020, I started painting California plants in my free time. Brent had a brilliant idea to use those illustrations to make our own card game. We collaborated on the gameplay over several months, and iteratively improved the cards to make the game scientifically sound and playable. Our friends helped us playtest the game to assure that it is not only fun but accessible to everyone. In the end, we wanted to make a game that we would enjoy playing with our friends. We also made a conscious decision to make it portable, so we can bring it to fieldwork or camping trips. 
 
