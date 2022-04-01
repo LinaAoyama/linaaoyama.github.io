@@ -2,7 +2,7 @@
 layout: post
 title: Another dry spring
 subtitle: March field update
-cover-img: /assets/img/news/ELE_march.jpg
+cover-img: /assets/img/news/ELEL_march.jpg
 thumbnail-img: /assets/img/news/Ranunculus.jpg
 share-img: /assets/img/news/Ranunculus.jpg
 ---
