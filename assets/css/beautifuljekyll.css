@@ -1115,3 +1115,11 @@ pre {
   margin-right: auto;
   width: 50%;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
