@@ -1120,7 +1120,11 @@ pre {
   display: flex;
 }
 
+.research-row h3 {
+  margin-top: 0;
+}
+
 .column {
-  flex: calc(50%-2rem);
+  flex: calc(50% - 2rem);
   margin: 0 1rem;
 }

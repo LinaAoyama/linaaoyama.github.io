@@ -20,11 +20,10 @@ Native plant seeding after wildfires is a common restoration practice throughout
 </div>
 
 <div class="row">
+<div class="column">
 <h3 style="text-align: center">
 Seed Provenance in Post-fire Restoration
 </h3>
-
-<div class="column">
 The seed provenance, or the geographic origin of a seed source, is an important decision in restoration. The common strategy is to use local seeds, based on the argument that local plants are best adapted to their environment. However, the impacts of annual grass invasion and climate change on plant populations begs the question, will the plants we plant now persist into the future? Seed sourcing that considers anticipated future environmental conditions of a restoration site may improve restoration success. To test this, I am conducting a common garden experiment on a native grass species, bottlebrush squirreltail (Elymus elymoides).
 </div>
 
@@ -39,15 +38,22 @@ Field experiment at the Northern Great Basin Experimental Range, OR.
 
 </div>
 
-<h3 style="text-align: center">
-Application of Modern Coexistence Theory
-</h3>
-[![lasthenia](/../../assets/img/research/lasthenia-small.jpg){: .mx-auto.d-block }](/../../assets/img/research/lasthenia.jpg)
+<div class="row">
+<div class="column">
+
+<a href="/../../assets/img/research/lasthenia.jpg"><img src="/../../assets/img/research/lasthenia-small.jpg" /></a>
 <div class="caption">
 *Lasthenia conjugens* in vernal pools at Travis Air Force Base, CA. Photo credit: Dr. Akasha Faist
 </div>
+</div>
 
+<div class="column">
+<h3 style="text-align: center">
+Application of Modern Coexistence Theory
+</h3>
 How do you know when restoration is successful? Restoration assessment is non-trivial when the target population fluctuates and the starting condition changes over time. At the same time, Modern Coexistence Theory has highlighted that fluctuating environment and species interactions can maintain species coexistence. I am part of an iDiv working group that is bridging the gap between restoration and Modern Coexistence Theory. Using a long-term data set of an endangered species, Contra Costa goldfields (*Lasthenia conjugens*) from a vernal pool restoration project in California, we investigated how principles from Modern Coexistence Theory could be applied to diagnose restoration trajectories. 
+</div>
+</div>
 
 <h3 style="text-align: center">
 Ecological Site Description and Ecosystem Services
