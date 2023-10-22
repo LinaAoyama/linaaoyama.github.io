@@ -4,14 +4,14 @@ title: Research
 ---
 
 <div class="research-row">
-<div class="column">
+<div class="column-image">
 <a href="/../../assets/img/research/bluebunch.jpg"><img src="/../../assets/img/research/bluebunch-small.jpg"/></a>
 <div class="caption">
 Burned area seeded with bluebunch wheatgrass (*Pseudoroegneria spicata*) in Owyhee, ID.
 </div>
 </div>
 
-<div class="column">
+<div class="column-text">
 <h3 style="text-align: center">
 Effect of Post-fire Restoration on Plant Genetic Diversity
 </h3>
@@ -19,7 +19,7 @@ Native plant seeding after wildfires is a common restoration practice throughout
 </div>
 </div>
 
-<div class="row">
+<div class="research-row">
 <div class="column">
 The seed provenance, or the geographic origin of a seed source, is an important decision in restoration. The common strategy is to use local seeds, based on the argument that local plants are best adapted to their environment. However, the impacts of annual grass invasion and climate change on plant populations begs the question, will the plants we plant now persist into the future? Seed sourcing that considers anticipated future environmental conditions of a restoration site may improve restoration success. To test this, I am conducting a common garden experiment on a native grass species, bottlebrush squirreltail (Elymus elymoides).
 </div>
@@ -39,7 +39,7 @@ Field experiment at the Northern Great Basin Experimental Range, OR.
 
 </div>
 
-<div class="row">
+<div class="research-row">
 <div class="column">
 
 <a href="/../../assets/img/research/lasthenia.jpg"><img src="/../../assets/img/research/lasthenia-small.jpg" /></a>
@@ -56,7 +56,7 @@ How do you know when restoration is successful? Restoration assessment is non-tr
 </div>
 </div>
 
-<div class="row">
+<div class="research-row">
 
 <div class="column">
 Rangelands provide numerous ecosystem services such as forage, biodiversity, and soil carbon. The Ecological Site Description framework developed to primarily manage forage on heterogeneous landscapes has potential to be used to manage other range resources. I explored this potential for application at Tejon Ranch in Kern County, California. 
@@ -79,16 +79,21 @@ Hills of the Tehachapi Mountains at Tejon Ranch, CA.
 stuff here that I might wanna keep later but don't want to show
 -->
 
+<div class="research-row">
+<div class="column">
 <h3 style="text-align: center">
 Rangeland Conservation
 </h3>
-[![cow](/../../assets/img/research/cow-small.jpg){: .mx-auto.d-block }](/../../assets/img/research/cow.jpg)
-<div class="caption">
+
+<a href="/../../assets/img/research/cow.jpg"><img src="/../../assets/img/research/cow-small.jpg" /></a>
+
 Tejon Ranch, CA.
 </div>
 
+<div class="column">
 California range is a patchwork of private and public lands. Conservation in this context hinges on partnerships across multiple stakeholders. I interviewed ranchers, land managers, and academics across California to understand their perception of rangeland conservation, and barriers and opportunities for working together.
-
+</div>
+</div>
 
 
 
