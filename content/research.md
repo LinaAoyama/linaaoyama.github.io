@@ -8,7 +8,7 @@ title: Research
 Effect of Post-fire Restoration on Plant Genetic Diversity
 </h3>
 <div class="column">
-[![bluebunch](/../../assets/img/research/bluebunch-small.jpg){: .mx-auto.d-block }](/../../assets/img/research/bluebunch.jpg)
+<a href="/../../assets/img/research/bluebunch.jpg"><img src="/../../assets/img/research/bluebunch-small.jpg"/></a>
 <div class="caption">
 Burned area seeded with bluebunch wheatgrass (*Pseudoroegneria spicata*) in Owyhee, ID.
 </div>
