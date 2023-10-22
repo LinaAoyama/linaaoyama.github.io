@@ -1,8 +1,9 @@
 ---
-layout: minimal
+layout: page
 title: Research
 ---
 
+<div class="research-row">
 <h3 style="text-align: center">
 Effect of Post-fire Restoration on Plant Genetic Diversity
 </h3>
@@ -15,6 +16,7 @@ Burned area seeded with bluebunch wheatgrass (*Pseudoroegneria spicata*) in Owyh
 
 <div class="column">
 Native plant seeding after wildfires is a common restoration practice throughout the Great Basin. Native perennial grass species are often included in the seed mix to prevent soil erosion and provide forage. What are the effects of seeding and landscape-dispersal on the genetic diversity of restored and neighboring native grass populations? I am exploring this question by genotyping bluebunch wheatgrass in an area affected by Soda Fire that burned in 2015.
+</div>
 </div>
 
 <h3 style="text-align: center">
