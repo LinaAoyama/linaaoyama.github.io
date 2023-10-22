@@ -82,7 +82,9 @@ stuff here that I might wanna keep later but don't want to show
 
 <a href="/../../assets/img/research/cow.jpg"><img src="/../../assets/img/research/cow-small.jpg" /></a>
 
+<div class="caption">
 Tejon Ranch, CA.
+</div>
 </div>
 
 <div class="research-column-text">
