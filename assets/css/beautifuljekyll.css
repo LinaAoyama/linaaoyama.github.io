@@ -1129,12 +1129,12 @@ pre {
 }
 
 .research-column-text {
-  flex: calc(60% - 1rem);
-  margin: 0 0.5rem 1.25rem 0.5rem;
+  flex: calc(50% - 1rem);
+  margin: 0 0.5rem 2rem 0.5rem;
   font-size: 1rem;
 }
 
 .research-column-image {
-  flex: calc(40% - 1rem);
-  margin: 0 0.5rem 1.25rem 0.5rem;
+  flex: calc(50% - 1rem);
+  margin: 0 0.5rem 2rem 0.5rem;
 }
