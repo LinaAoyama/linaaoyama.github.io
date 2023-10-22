@@ -4,9 +4,6 @@ title: Research
 ---
 
 <div class="research-row">
-<h3 style="text-align: center">
-Effect of Post-fire Restoration on Plant Genetic Diversity
-</h3>
 <div class="column">
 <a href="/../../assets/img/research/bluebunch.jpg"><img src="/../../assets/img/research/bluebunch-small.jpg"/></a>
 <div class="caption">
@@ -15,19 +12,32 @@ Burned area seeded with bluebunch wheatgrass (*Pseudoroegneria spicata*) in Owyh
 </div>
 
 <div class="column">
+<h3 style="text-align: center">
+Effect of Post-fire Restoration on Plant Genetic Diversity
+</h3>
 Native plant seeding after wildfires is a common restoration practice throughout the Great Basin. Native perennial grass species are often included in the seed mix to prevent soil erosion and provide forage. What are the effects of seeding and landscape-dispersal on the genetic diversity of restored and neighboring native grass populations? I am exploring this question by genotyping bluebunch wheatgrass in an area affected by Soda Fire that burned in 2015.
 </div>
 </div>
 
+<div class="row">
 <h3 style="text-align: center">
 Seed Provenance in Post-fire Restoration
 </h3>
-[![eoarc](/../../assets/img/research/eoarc-small.jpg){: .mx-auto.d-block }](/../../assets/img/research/eoarc.jpg)
+
+<div class="column">
+The seed provenance, or the geographic origin of a seed source, is an important decision in restoration. The common strategy is to use local seeds, based on the argument that local plants are best adapted to their environment. However, the impacts of annual grass invasion and climate change on plant populations begs the question, will the plants we plant now persist into the future? Seed sourcing that considers anticipated future environmental conditions of a restoration site may improve restoration success. To test this, I am conducting a common garden experiment on a native grass species, bottlebrush squirreltail (Elymus elymoides).
+</div>
+
+<div class="column">
+
+<a href="/../../assets/img/research/eoarc.jpg"><img src="/../../assets/img/research/eoarc-small.jpg" /></a>
+
 <div class="caption">
 Field experiment at the Northern Great Basin Experimental Range, OR.
 </div>
+</div>
 
-The seed provenance, or the geographic origin of a seed source, is an important decision in restoration. The common strategy is to use local seeds, based on the argument that local plants are best adapted to their environment. However, the impacts of annual grass invasion and climate change on plant populations begs the question, will the plants we plant now persist into the future? Seed sourcing that considers anticipated future environmental conditions of a restoration site may improve restoration success. To test this, I am conducting a common garden experiment on a native grass species, bottlebrush squirreltail (Elymus elymoides).
+</div>
 
 <h3 style="text-align: center">
 Application of Modern Coexistence Theory
