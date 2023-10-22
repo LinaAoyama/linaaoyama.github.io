@@ -1124,13 +1124,17 @@ pre {
   margin-top: 0;
 }
 
-.column-text {
-  flex: calc(65% - 1rem);
+.research-row .caption {
+  margin-top: 0.25rem;
+}
+
+.research-column-text {
+  flex: calc(60% - 1rem);
   margin: 0 0.5rem 1.25rem 0.5rem;
   font-size: 1rem;
 }
 
-.column-image {
-  flex: calc(35% - 1rem);
+.research-column-image {
+  flex: calc(40% - 1rem);
   margin: 0 0.5rem 1.25rem 0.5rem;
 }
