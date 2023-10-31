@@ -42,7 +42,7 @@ Field experiment at the Northern Great Basin Experimental Range, OR.
 
 <a href="/../../assets/img/research/roots.jpg"><img src="/../../assets/img/research/roots-small.jpg" /></a>
 <div class="caption">
-Root scan of 
+Root harvest at the UO Greenhouse Facility. 
 </div>
 </div>
 
@@ -50,7 +50,7 @@ Root scan of
 <h3 style="text-align: center">
 Functional Diversity and Productivity
 </h3>
-Does functional diversity buffer plant communities from drought? Read more on [root functional diversity](https://doi.org/10.1111/1365-2435.14394).  
+Does functional diversity buffer plant communities from drought? Combining plant response data from a rainfall manipulation experiment and greenhouse trait measurements, we found that functional diversity buffered biomass production by enabling shifts in above-and belowground functional traits across variable rainfall conditions. Read more on [root functional diversity](https://doi.org/10.1111/1365-2435.14394).  
 </div>
 </div>
 
