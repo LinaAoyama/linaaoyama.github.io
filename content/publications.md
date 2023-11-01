@@ -17,7 +17,7 @@ Access all publications on [Google Scholar](https://scholar.google.com/citations
 
 7. **Aoyama**, L., E. Cook, and L. M. Hallett. 2022. Intraspecific variation in native grass seedling response to water stress depends on the annual grass invasion context. *Restoration Ecology* 31(6): e13816. [https://doi.org/10.1111/rec.13816](https://doi.org/10.1111/rec.13816) 
 
-6. **Aoyama**, L., L. G. Shoemaker, B. Gilbert, S. K. Collinge, A. Faist, N. A. Shackelford, V. Temperton, G. Barabás, L. Larios, E. R. Ladouceur, O. Godoy, C. Bowler, and L. M. Hallett. 2022. Diagnosing restoration trajectories using modern coexistence theory. *Ecological Applications* 32(7): e2649. 
+6. **Aoyama**, L., L. G. Shoemaker, B. Gilbert, S. K. Collinge, A. Faist, N. A. Shackelford, V. Temperton, G. Barabás, L. Larios, E. R. Ladouceur, O. Godoy, C. Bowler, and L. M. Hallett. 2022. Application of modern coexistence theory to rare plant restoration provides early indication of restoration trajectories. *Ecological Applications* 32(7): e2649. 
 [https://doi.org/10.1002/eap.2649](https://doi.org/10.1002/eap.2649)
 
 5. **Aoyama**, L., J. W. Bartolome, L. Silva, and W. L. Silver. 2022. Using Ecological Site Descriptions to make ranch-level decisions about where to manage for soil organic carbon. *California Agriculture* 76(2): 85-92. [https://doi.org/10.3733/ca.2022a0007](https://doi.org/10.3733/ca.2022a0007) 
