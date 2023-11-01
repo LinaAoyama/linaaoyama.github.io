@@ -22,7 +22,7 @@ Seed-based restoration after wildfires is common throughout the Great Basin. Nat
 <div class="research-row">
 <div class="research-column-text">
 <h3 style="text-align: center">
-Forward-looking Seed Sourcing in Post-fire Restoration
+Forward-looking Seed Sourcing and Seedling Traits
 </h3>
 Seed sourcing is an important decision practitioners make in restoration. The common strategy is to use local seeds assuming that local plants are best adapted to their environment. Will the plants we seed now persist into the future? I conducted a field common garden experiment and found that seed sourcing that considers anticipated future environmental conditions of a restoration site can improve restoration success in moderate drought. To examine what the roots are doing belowground, I conducted a greenhouse experiment and found that the trade-offs in drought tolerance (higher fine roots) and invasive resistant (higher SLA) seedling traits complicate the seed selection process.  Read more on <a target="_blank" href="https://doi.org/10.1111/rec.13816">seedling traits</a>.  
 </div>
