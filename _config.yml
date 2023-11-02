@@ -19,6 +19,7 @@ navbar-links:
   Publications: "/content/publications"
   Restoria: "/content/restoria"
   News: "/content/news"
+  Contact: "/content/contact"
     #- Beautiful Jekyll: "https://beautifuljekyll.com/"
     #- Learn markdown: "https://www.markdowntutorial.com/"
   
