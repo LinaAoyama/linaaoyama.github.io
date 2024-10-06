@@ -3,14 +3,14 @@ layout: page
 title: Restoria
 ---
 
-<div style="border: 1px solid #ddd; padding: 20px; max-width: 800px; display: flex; align-items: flex-start;">
+<div style="border: 1px solid #ddd; padding: 20px; max-width: 800px; display: flex; align-items: flex-start; flex-wrap: wrap;">
     <!-- Product Image -->
-    <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="text-decoration: none;">
-        <img src="https://www.linaaoyama.com/assets/img/restoria/WhiteBoxSmall.jpg" alt="Restoria" style="width: 300px; max-width: 300px; height: auto; margin-right: 20px;">
+    <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="text-decoration: none; flex: 0 0 300px;">
+        <img src="https://www.linaaoyama.com/assets/img/restoria/WhiteBoxSmall.jpg" alt="Restoria" style="width: 100%; max-width: 300px; height: auto; margin-right: 20px;">
     </a>
 
     <!-- Text and Button Container -->
-    <div style="flex-grow: 1;">
+    <div style="flex-grow: 1; flex-basis: 0;">
         <!-- Product Title (optional) -->
         <h3 style="font-size: 16px; color: #333; font-family: Arial, sans-serif; margin-top: 20px;">Restoria</h3>
 
@@ -21,10 +21,24 @@ title: Restoria
 
         <!-- Buy on Amazon Button -->
         <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="display: inline-block; background-color: #FF9900; color: #202020; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-family: Arial, sans-serif; font-size: 14px;">
-          <img src="https://www.linaaoyama.com/assets/img/restoria/AmazonA.png" height="18px" /> Buy on Amazon
+            <img src="https://www.linaaoyama.com/assets/img/restoria/AmazonA.png" height="18px" alt="Amazon logo" /> Buy on Amazon
         </a>
     </div>
 </div>
+
+<!-- Responsive CSS -->
+<style>
+    @media (max-width: 768px) {
+        div[style*="display: flex"] {
+            flex-direction: column;
+        }
+
+        div[style*="display: flex"] a[style*="flex: 0 0 300px"] {
+            margin-right: 0;
+            margin-bottom: 20px; /* Add space between image and text when stacked */
+        }
+    }
+</style>
 
 ### What is Restoria? ###
 
