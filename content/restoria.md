@@ -6,7 +6,7 @@ title: Restoria
 <div style="border: 1px solid #ddd; padding: 20px; max-width: 800px; display: flex; align-items: flex-start;">
     <!-- Product Image -->
     <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="text-decoration: none;">
-        <img src="https://www.linaaoyama.com/assets/img/restoria/WhiteBoxSmall.jpg" alt="Restoria" style="width: 300px; height: auto; margin-right: 20px;">
+        <img src="https://www.linaaoyama.com/assets/img/restoria/WhiteBoxSmall.jpg" alt="Restoria" style="width: 300px; max-width: 300px; height: auto; margin-right: 20px;">
     </a>
 
     <!-- Text and Button Container -->
@@ -15,14 +15,13 @@ title: Restoria
         <h3 style="font-size: 16px; color: #333; font-family: Arial, sans-serif; margin-top: 20px;">Restoria</h3>
 
         <!-- Product Description -->
-        <p>
+        <p style="font-size: 1rem;">
             A light-weight strategy card game that incorporates community ecology concepts and features 31 species of California plants. Designed by Lina Aoyama Batas, an ecologist, and Brent Batas, a lifelong game designer.
         </p>
 
         <!-- Buy on Amazon Button -->
         <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="display: inline-block; background-color: #FF9900; color: #202020; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-family: Arial, sans-serif; font-size: 14px;">
-          <img src="https://www.linaaoyama.com/assets/img/restoria/AmazonA.png" height="18px">
-            Buy on Amazon
+          <img src="https://www.linaaoyama.com/assets/img/restoria/AmazonA.png" height="18px" /> Buy on Amazon
         </a>
     </div>
 </div>
