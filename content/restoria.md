@@ -3,8 +3,35 @@ layout: page
 title: Restoria
 ---
 
-**Buy Restoria on Amazon here!**
-<a target="_blank" href="https://www.amazon.com/dp/B0CWVZ4Q3R">https://www.amazon.com/dp/B0CWVZ4Q3R</a>
+<div style="border: 1px solid #ddd; padding: 20px; max-width: 300px; text-align: center;">
+    <!-- Product Image -->
+    <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="text-decoration: none;">
+        <img src="https://www.linaaoyama.com/assets/img/restoria/WhiteBoxSmall.jpg" alt="Restoria" style="width: 100%; height: auto; border-bottom: 1px solid #ddd; padding-bottom: 10px;">
+    </a>
+    
+    <!-- Product Title (optional) -->
+    <h3 style="font-size: 16px; color: #333; font-family: Arial, sans-serif;">Restoria</h3>
+    
+    <!-- Buy on Amazon Button -->
+    <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="display: inline-block; background-color: #FF9900; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-family: Arial, sans-serif; font-size: 14px;">
+        Buy on Amazon
+    </a>
+</div>
+
+<div style="border: 1px solid #ddd; padding: 20px; max-width: 300px; text-align: center;">
+    <!-- Product Image -->
+    <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="text-decoration: none;">
+        <img src="https://via.placeholder.com/300" alt="Product Name" style="width: 100%; height: auto; border-bottom: 1px solid #ddd; padding-bottom: 10px;">
+    </a>
+    
+    <!-- Product Title (optional) -->
+    <h3 style="font-size: 16px; color: #333; font-family: Arial, sans-serif;">Product Name</h3>
+    
+    <!-- Buy on Amazon Button -->
+    <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="display: inline-block; background-color: #FF9900; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-family: Arial, sans-serif; font-size: 14px;">
+        Buy on Amazon
+    </a>
+</div>
 
 <img src="/../../assets/img/restoria/Main_820.jpg" width="820">
 
