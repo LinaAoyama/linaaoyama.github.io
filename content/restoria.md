@@ -2,7 +2,7 @@
 layout: page
 title: Restoria
 ---
-<img src="/../../assets/img/restoria/Main_820.jpg" width=360>
+<img src="/../../assets/img/restoria/Main_820.jpg" width=820>
 
 ### What is Restoria? ###
 **Restoria** is a tabletop game in which you take on the role of an ecologist working to restore grasslands. Your challenge is to build a species diverse plant community that is resilient to wildfires, drought, and other events.
@@ -30,7 +30,7 @@ Restoria is portable and quick to set up. It was designed to be easily taken alo
 
 In the middle of the table is the plant **Nursery**, consisting of 5 plant cards shared between all players. Next to the Nursery are the **Events** deck and **Plants** deck. Off to the side are **Nutrients** (your "money"). Finally, each player has a **Biomass** counter to track their score.
 
-<img src="/../../assets/img/restoria/Layout.jpg" class = "center">
+<img src="/../../assets/img/restoria/Layout.jpg">
 <div class="caption">Table layout of a typical game.</div>
 
 Each turn, players choose plants from the Nursery to add to their community. Special events, such as rainy days or wildfires, also occur each turn, affecting plants in different ways.
@@ -53,13 +53,13 @@ Every plant also has a unique ability, as well as characteristics:
 
 Moreover, each plant features hand-painted artwork. Just by playing Restoria, you can learn the scientific names of plants, get a sense of their ecological significance, and perhaps recognize them on your next walk or hike.
 
-<img src="/../../assets/img/restoria/AllPlants1.png" class = "center">
-<img src="/../../assets/img/restoria/AllPlants2.png" class = "center">
-<img src="/../../assets/img/restoria/AllPlants3.png" class = "center">
-<img src="/../../assets/img/restoria/AllPlants4.png" class = "center">
+<img src="/../../assets/img/restoria/AllPlants1.png">
+<img src="/../../assets/img/restoria/AllPlants2.png">
+<img src="/../../assets/img/restoria/AllPlants3.png">
+<img src="/../../assets/img/restoria/AllPlants4.png">
 
 ### Our Story ###
-<img src="/../../assets/img/restoria/Family.jpg" class = "center">
+<img src="/../../assets/img/restoria/Family.jpg">
 
 Restoria is co-designed by **Lina Aoyama Batas**, a plant ecologist, and her husband, **Brent Batas**, a full-time video game designer who develops Legion TD 2. We enjoy playing tabletop games in our spare time, and Brent designs tabletop games as a hobby. 
 
@@ -69,7 +69,7 @@ Over several years, we playtested Restoria ourselves as well as with Lina's Univ
 
 Our dream is to see Restoria on the shelves of science classrooms and public parks, where it will inspire a love of science, teach players a thing or two about plants, and most of all, be a fun game to play!
 
-<img src="/../../assets/img/restoria/playing-small.jpg" width=500 class="center">
+<img src="/../../assets/img/restoria/playing-small.jpg">
 <div class="caption">
 Photo credit: Calvin Penkauskas. Lab retreat August 2021
 </div>
