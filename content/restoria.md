@@ -2,7 +2,9 @@
 layout: page
 title: Restoria
 ---
-<img src="/../../assets/img/restoria/Main_820.jpg" width=820>
+<img src="/../../assets/img/restoria/Main_820.jpg" width="820">
+
+Buy Restoria on Amazon here: <a target="_blank" href="https://www.amazon.com/dp/B0CWVZ4Q3R">https://www.amazon.com/dp/B0CWVZ4Q3R</a>
 
 ### What is Restoria? ###
 **Restoria** is a tabletop game in which you take on the role of an ecologist working to restore grasslands. Your challenge is to build a species diverse plant community that is resilient to wildfires, drought, and other events.
