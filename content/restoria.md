@@ -3,39 +3,33 @@ layout: page
 title: Restoria
 ---
 
-<div style="border: 1px solid #ddd; padding: 20px; max-width: 300px; text-align: center;">
+<div style="border: 1px solid #ddd; padding: 20px; max-width: 800px; display: flex; align-items: flex-start;">
     <!-- Product Image -->
     <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="text-decoration: none;">
-        <img src="https://www.linaaoyama.com/assets/img/restoria/WhiteBoxSmall.jpg" alt="Restoria" style="width: 100%; height: auto; border-bottom: 1px solid #ddd; padding-bottom: 10px;">
+        <img src="https://www.linaaoyama.com/assets/img/restoria/WhiteBoxSmall.jpg" alt="Restoria" style="width: 300px; height: auto; margin-right: 20px;">
     </a>
-    
-    <!-- Product Title (optional) -->
-    <h3 style="font-size: 16px; color: #333; font-family: Arial, sans-serif;">Restoria</h3>
-    
-    <!-- Buy on Amazon Button -->
-    <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="display: inline-block; background-color: #FF9900; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-family: Arial, sans-serif; font-size: 14px;">
-        Buy on Amazon
-    </a>
+
+    <!-- Text and Button Container -->
+    <div style="flex-grow: 1;">
+        <!-- Product Title (optional) -->
+        <h3 style="font-size: 16px; color: #333; font-family: Arial, sans-serif; margin-top: 20px;">Restoria</h3>
+
+        <!-- Product Description -->
+        <p>
+            A light-weight strategy card game that incorporates community ecology concepts and features 31 species of California plants. Designed by Lina Aoyama Batas, an ecologist, and Brent Batas, a lifelong game designer.
+        </p>
+
+        <!-- Buy on Amazon Button -->
+        <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="display: inline-block; background-color: #FF9900; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-family: Arial, sans-serif; font-size: 14px;">
+            Buy on Amazon
+        </a>
+    </div>
 </div>
 
-<div style="border: 1px solid #ddd; padding: 20px; max-width: 300px; text-align: center;">
-    <!-- Product Image -->
-    <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="text-decoration: none;">
-        <img src="https://via.placeholder.com/300" alt="Product Name" style="width: 100%; height: auto; border-bottom: 1px solid #ddd; padding-bottom: 10px;">
-    </a>
-    
-    <!-- Product Title (optional) -->
-    <h3 style="font-size: 16px; color: #333; font-family: Arial, sans-serif;">Product Name</h3>
-    
-    <!-- Buy on Amazon Button -->
-    <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="display: inline-block; background-color: #FF9900; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-family: Arial, sans-serif; font-size: 14px;">
-        Buy on Amazon
-    </a>
-</div>
+### What is Restoria? ###
 
 <img src="/../../assets/img/restoria/Main_820.jpg" width="820">
 
-### What is Restoria? ###
 **Restoria** is a tabletop game in which you take on the role of an ecologist working to restore grasslands. Your challenge is to build a species diverse plant community that is resilient to wildfires, drought, and other events.
 
 - Draw from 31 different Plant cards, each with abilities and characteristics based on real-life research. 
