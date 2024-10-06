@@ -2,9 +2,11 @@
 layout: page
 title: Restoria
 ---
-<img src="/../../assets/img/restoria/Main_820.jpg" width="820">
 
-Buy Restoria on Amazon here: <a target="_blank" href="https://www.amazon.com/dp/B0CWVZ4Q3R">https://www.amazon.com/dp/B0CWVZ4Q3R</a>
+**Buy Restoria on Amazon here!**
+<a target="_blank" href="https://www.amazon.com/dp/B0CWVZ4Q3R">https://www.amazon.com/dp/B0CWVZ4Q3R</a>
+
+<img src="/../../assets/img/restoria/Main_820.jpg" width="820">
 
 ### What is Restoria? ###
 **Restoria** is a tabletop game in which you take on the role of an ecologist working to restore grasslands. Your challenge is to build a species diverse plant community that is resilient to wildfires, drought, and other events.
@@ -71,7 +73,7 @@ Over several years, we playtested Restoria ourselves as well as with Lina's Univ
 
 Our dream is to see Restoria on the shelves of science classrooms and public parks, where it will inspire a love of science, teach players a thing or two about plants, and most of all, be a fun game to play!
 
-<img src="/../../assets/img/restoria/playing-small.jpg">
+<img src="/../../assets/img/restoria/playing-medium.jpg">
 <div class="caption">
 Photo credit: Calvin Penkauskas. Lab retreat August 2021
 </div>
