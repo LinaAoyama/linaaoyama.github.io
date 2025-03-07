@@ -4,9 +4,16 @@ layout: page
 
 ![headshot](/../../assets/img/aboutme/headshot.jpg){: .mx-auto.d-block : width="250"}
 
-I am an interdisciplinary ecologist interested in improving the management and restoration of rangelands in the Western U.S. in the face of increasing threats from climate change, wildfire, and invasive species. My research draws on concepts from population and community ecology to understand how environmental variability, species interactions, and management practices influence plant communities. I use a wide array of inferences from field surveys, common garden experiments, long-term observations, and models to understand plant responses to these complex interactions.
+I am an interdisciplinary applied ecologist interested in improving the management and restoration of natural 
+and working landscapes in the Western U.S. in the face of increasing threats from climate change, 
+wildfire, and invasive species. My research draws on concepts from plant community ecology, conservation science, and 
+rangeland ecology and management to understand how environmental changes and management practices including restoration 
+affect ecosystem services and biodiversity across scales from population (genetics) to community to landscape level. 
+I use a wide array of inferences from field surveys, field manipulative experiments, long-term observations, and modeling.
 
-Currently, I am a USDA NIFA Predoctoral Fellow and a PhD candidate in [Dr. Lauren Hallett's lab](https://hallettlab.netlify.app/) at the University of Oregon. For my doctorate, I am exploring 1) the forward-looking seed sourcing strategies for post-fire restoration in the Great Basin; 2) the role of genetic and functional diversity in resilience of plant communities; and 3) the practical application of modern coexistence theory to plant restoration. 
+I am passionate about delivering actionable science that directly informs land management decisions on the ground. I value collaborative
+research that includes local communities, underrepresented communities, and land managers with diverse backgrounds and perspectives.
 
-I completed my MS in Rangeland Management at UC Berkeley working with [Dr. James Bartolome](https://ourenvironment.berkeley.edu/people/james-bartolome). I studied 1) the application of Ecological Site Description to assess ecosystem services at a ranch-level; and 2) the perceived barriers and opportunities for implementing conservation practices on California rangelands.
-
+I received my BS in Molecular Environmental Biology (2015) and my MS in Rangeland Management (2018) from 
+University of California, Berkeley, and my PhD in Environmental Sciences, Studies, and Policy (2024) from University of Oregon. 
+I moved to Colorado to work at the USDA-ARS as a Science Coordinator for the Long-Term Agroecosystem Research Network.
