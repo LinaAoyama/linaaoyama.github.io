@@ -36,3 +36,9 @@ Access all publications on [Google Scholar](https://scholar.google.com/citations
 2. **Aoyama**, L., J. W. Bartolome, and L. M. Hallett. 2020. Incorporating diversity measures into Ecological Site Descriptions to manage biodiversity on heterogeneous landscapes. *Rangelands* 42(4): 93-105.[https://doi.org/10.1016/j.rala.2020.05.002](https://doi.org/10.1016/j.rala.2020.05.002)
 
 1. **Aoyama**, L. and L. Huntsinger. 2019. Are landowners, managers, and range management academics on the same page about conservation? *Rangelands* 41(1): 61-69. [https://doi.org/10.1016/j.rala.2018.10.001](https://doi.org/10.1016/j.rala.2018.10.001)
+
+Non-Peer Reviewed Publications:
+
+2. <a target="_blank" href="https://functionalecologists.com/2024/03/19/lina-aoyama-root-diversity-in-grasslands-buffers-biomass-production-under-drought/">Behind the paper article</a> on *Functional Ecology*.
+
+1. <a target="_blank" href="https://cnga.org/resources/Documents/Grasslands%20Journal/Grassland%20Issues/2022%20Grasslands%20Journal/CNGA%20Grasslands%20Vol%2032%20No%201%20Winter%202022.pdf">Meet a Grassland Researcher article</a> on *Grasslands*.

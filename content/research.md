@@ -64,7 +64,6 @@ Does functional diversity buffer plant communities from drought? Combining plant
 and greenhouse trait measurements, we found that functional diversity buffered biomass production by enabling shifts in above-and 
 belowground functional traits across variable rainfall conditions. 
 Read more on <a target="_blank" href="https://doi.org/10.1111/1365-2435.14394">root functional diversity</a>. 
-<a target="_blank" href="https://functionalecologists.com/2024/03/19/lina-aoyama-root-diversity-in-grasslands-buffers-biomass-production-under-drought/">Behind the paper article</a> on *Functional Ecology*.   
 </div>
 </div>
 
