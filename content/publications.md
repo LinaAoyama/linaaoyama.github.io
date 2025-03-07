@@ -16,7 +16,7 @@ Access all publications on [Google Scholar](https://scholar.google.com/citations
 
 11. Hallett, L. M., L. **Aoyama**, G. Barabas, B. Gilbert, L. Larios, N. Shackelford, C. M. Werner, O. Godoy, E. R. Ladouceur, J. E. Lucero, C. P. Weiss-Lehman, J. M. Chase, C. Chu, W. S. Harpole, M. M. Mayfield, A. M. Faist, and L. G. Shoemaker. 2023. Restoration ecology through the lens of coexistence theory. *Trends in Ecology and Evolution* 6(4): 1-12. [https://doi.org/10.1016/j.tree.2023.06.004](https://doi.org/10.1016/j.tree.2023.06.004)
 
-10. **Aoyama**, L., E. A. Shaw, C. T. While, K. N. Suding, and L. M. Hallett. 2023. Functional diversity buffers biomass production across variable rainfall conditions through different processes above- vs belowground. *Functional Ecology* 37(9): 1-15. [https://doi.org/10.1111/1365-2435.14394](https://doi.org/10.1111/1365-2435.14394) 
+10. **Aoyama**, L., E. A. Shaw, C. T. White, K. N. Suding, and L. M. Hallett. 2023. Functional diversity buffers biomass production across variable rainfall conditions through different processes above- vs belowground. *Functional Ecology* 37(9): 1-15. [https://doi.org/10.1111/1365-2435.14394](https://doi.org/10.1111/1365-2435.14394) 
 
 9. Halpern, B. et al. including L. **Aoyama** 2023. Priorities for synthesis in ecology and environmental science. *Ecosphere* 14(1): e4342.  [https://doi.org/10.1002/ecs2.4342](https://doi.org/10.1002/ecs2.4342) 
 
