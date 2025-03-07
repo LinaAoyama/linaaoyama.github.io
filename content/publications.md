@@ -5,7 +5,11 @@ title: Publications
 
 Access all publications on [Google Scholar](https://scholar.google.com/citations?user=VcrXOscAAAAJ&hl=en) or [ResearchGate](https://www.researchgate.net/profile/Lina-Aoyama-2) or contact me for a copy.
 
-13. **Aoyama**, L., L. Silva, S. M. Copeland, R. C. O'Connor, L. M. Hallett. 2024. Interannual variation in provenance performance under drought in a Great Basin rangeland. *Restoration Ecology* 
+15. **Aoyama**, L., M. J. Germino, L. M. Hallett, and M. A. Streisfeld. 2025. Low genetic differentiation across restored and natural populations shortly after a large-scale, post-fire seeding in the Great Basin. *Restoration Ecology* in review.
+
+14. Haring, S., L. **Aoyama**, M. Lane-Massee, L. C. Ponisio, and L. M. Hallett. 2025. Agricultural sustainability requires multidimensional solutions that address environmental and financial benefits in the Oregon hazelnut industry. *Renewable Agriculture and Food Systems* in press.
+
+13. **Aoyama**, L., L. Silva, S. M. Copeland, R. C. O'Connor, L. M. Hallett. 2024. Interannual variation in provenance performance under drought in a Great Basin rangeland. *Restoration Ecology* e14210. [http://dx.doi.org/10.1111/rec.14210](http://dx.doi.org/10.1111/rec.14210)  
 
 12. Case, M., K. Davies, C. Boyd. L. **Aoyama**, J. Merson, C. Penkauskas, and L. M. Hallett. 2024. Cross-scale analysis reveals interacting drivers of annual and perennial vegetation in Northern Great Basin rangelands. *Ecological Applications* 34(4): e2953.  
 [https://doi.org/10.1002/eap.2953](https://doi.org/10.1002/eap.2953)
