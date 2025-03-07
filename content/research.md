@@ -75,8 +75,9 @@ Read more on <a target="_blank" href="https://doi.org/10.1111/1365-2435.14394">r
 Application of Modern Coexistence Theory
 </h3>
 How do we know when restoration is successful? Fluctuating populations and changing starting conditions make evaluation of restoration 
-success tricky. As part of an iDiv working group, I led a study on applying demographic modeling and principles from Modern Coexistence
-Theory to rare plant restoration. Using a long-term monitoring data of an endangered species, Contra Costa goldfields
+success tricky. As part of an international working group hosted at the German Centre for Integrative Biodiversity Research (iDiv), I 
+led a study on applying demographic modeling and principles from the Modern Coexistence Theory to rare plant restoration. 
+Using a long-term monitoring data of an endangered species, Contra Costa goldfields
 (<i>Lasthenia conjugens</i>), from a vernal pool restoration project, we found that model-derived low-density growth rates and per 
 capita intrinsic growth rates were reliable metrics for diagnosing long-term restoration trajectories. Read more on <a target="_blank" 
 href="https://doi.org/10.1002/eap.2649">this empirical study</a> and <a target="_blank" href="https://doi.org/10.1016/j.tree.2023.06.004"> the concept</a>.  
@@ -105,7 +106,7 @@ Native flora at Tejon Ranch, CA.
 Ecological Site Description and Ecosystem Services
 </h3>
 How do we manage for multiple ecosystem services? We found that the Ecological Site Description framework developed primarily to manage forage on 
-heterogeneous rangeland landscapes has potential to be useful for managing other resources such as plant biodiversity and soil carbon at a ranch-level. 
+heterogeneous rangeland landscapes has potential to be useful for managing other resources such as plant biodiversity and soil carbon at the ranch scale. 
 Read more on <a target="_blank" href="https://doi.org/10.1016/j.rala.2020.05.002">plant diversity</a>
 and <a target="_blank" href="https://doi.org/10.1111/rec.13353">soil carbon</a>.
 </div>
