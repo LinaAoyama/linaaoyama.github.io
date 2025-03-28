@@ -5,7 +5,7 @@ title: Publications
 
 Access all publications on [Google Scholar](https://scholar.google.com/citations?user=VcrXOscAAAAJ&hl=en) or [ResearchGate](https://www.researchgate.net/profile/Lina-Aoyama-2) or contact me for a copy.
 
-15. **Aoyama**, L., M. J. Germino, L. M. Hallett, and M. A. Streisfeld. 2025. Low genetic differentiation across restored and natural populations shortly after a large-scale, post-fire seeding in the Great Basin. *Restoration Ecology* in review.
+15. **Aoyama**, L., M. J. Germino, L. M. Hallett, and M. A. Streisfeld. 2025. Low genetic differentiation across restored and natural populations shortly after a large-scale, post-fire seeding in the Great Basin. *Restoration Ecology* in press.
 
 14. Haring, S., L. **Aoyama**, M. Lane-Massee, L. C. Ponisio, and L. M. Hallett. 2025. Agricultural sustainability requires multidimensional solutions that address environmental and financial benefits in the Oregon hazelnut industry. *Renewable Agriculture and Food Systems* in press.
 
