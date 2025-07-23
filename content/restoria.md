@@ -5,7 +5,7 @@ title: Restoria
 
 <div style="border: 1px solid #ddd; padding: 20px; max-width: 800px; display: flex; align-items: flex-start; flex-wrap: wrap;">
     <!-- Product Image -->
-    <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="text-decoration: none; flex: 0 0 300px;">
+    <a href="https://www.amazon.com/dp/B0F54MMY5H" target="_blank" style="text-decoration: none; flex: 0 0 300px;">
         <img src="https://www.linaaoyama.com/assets/img/restoria/WhiteBoxSmall.jpg" alt="Restoria" style="width: 100%; max-width: 300px; height: auto; margin-right: 20px;">
     </a>
 
