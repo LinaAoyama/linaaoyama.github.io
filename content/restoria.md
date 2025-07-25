@@ -20,7 +20,7 @@ title: Restoria
         </p>
 
         <!-- Buy on Amazon Button -->
-        <a href="https://www.amazon.com/dp/B0CWVZ4Q3R" target="_blank" style="display: inline-block; background-color: #FF9900; color: #202020; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-family: Arial, sans-serif; font-size: 14px;">
+        <a href="https://www.amazon.com/Lina-Brent-Games-Restoria-Ecology/dp/B0F54MMY5H" target="_blank" style="display: inline-block; background-color: #FF9900; color: #202020; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-family: Arial, sans-serif; font-size: 14px;">
             <img src="https://www.linaaoyama.com/assets/img/restoria/AmazonA.png" height="18px" alt="Amazon logo" /> Buy on Amazon
         </a>
     </div>
