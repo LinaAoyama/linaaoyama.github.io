@@ -7,7 +7,7 @@ title: Restoria
     <!-- Product Image -->
     <a href="https://www.amazon.com/Lina-Brent-Games-Restoria-Ecology/dp/B0F54MMY5H" target="_blank" style="text-decoration: none; flex: 0 0 300px;">
         <img src="https://www.linaaoyama.com/assets/img/restoria/WhiteBoxSmall.jpg" alt="Restoria" style="width: 100%; max-width: 300px; height: auto; margin-right: 20px;">
-    </a>
+    </a> 
 
     <!-- Text and Button Container -->
     <div style="flex-grow: 1; flex-basis: 0;">
