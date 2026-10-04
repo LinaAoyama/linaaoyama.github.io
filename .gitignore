@@ -9,6 +9,7 @@ Thumbs.db
 ehthumbs.db
 
 Gemfile.lock
+.wrangler/
 
 beautiful-jekyll-theme-*.gem
 .Rproj.user

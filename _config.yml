@@ -249,6 +249,8 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - restoria-site/
+  - wrangler.jsonc
 
 plugins:
   - jekyll-paginate

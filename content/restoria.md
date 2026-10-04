@@ -8,13 +8,13 @@ My husband and I created a board game, Restoria, as a way to communicate my Cali
 </p>
 
 <div class="restoria-card">
-  <a href="https://playrestoria.pages.dev" aria-label="Restoria game box">
+  <a href="https://playrestoria.pages.dev" aria-label="Restoria game box" target="_blank" rel="noopener">
     <img src="/assets/img/restoria/WhiteBoxSmall.jpg" alt="">
   </a>
   <div>
     <h2>Restoria</h2>
     <p>A light-weight strategy card game that incorporates community ecology concepts and features 31 species of California plants.</p>
-    <a class="restoria-button" href="https://playrestoria.pages.dev">View Website</a>
+    <a class="restoria-button" href="https://playrestoria.pages.dev" target="_blank" rel="noopener">View Website</a>
   </div>
 </div>
 

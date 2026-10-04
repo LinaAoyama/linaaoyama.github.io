@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restoria</title>
+  <meta name="description" content="Restoria is a strategy card game about restoring California grasslands. $24.99 plus USPS shipping.">
+  <style>
+    :root {
+      --ink: #1d2a22;
+      --muted: #4d5c52;
+      --paper: #f4efe4;
+      --card: #fffdf8;
+      --line: #ddd4c4;
+      --green: #1f4d38;
+      --green-dark: #163728;
+      --clay: #b5522a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+      line-height: 1.55;
+    }
+    img { max-width: 100%; height: auto; }
+    a { color: var(--green); }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 28px 20px 72px; }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+    .buy {
+      display: grid;
+      grid-template-columns: 380px 1fr;
+      gap: 28px;
+      align-items: start;
+      margin: 20px 0 48px;
+      padding: 16px 16px 12px;
+      background: #fff;
+      border: 1px solid var(--line);
+    }
+    .buy > img {
+      display: block;
+      width: 88%;
+      height: auto;
+      margin: 10px auto 0;
+    }
+    .blurb {
+      margin: 0 0 12px;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+    .price { font-size: 2rem; margin: 0 0 12px; }
+    button, .button {
+      appearance: none;
+      border: 0;
+      background: var(--green);
+      color: #fff;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: 1rem;
+      padding: 12px 28px;
+      cursor: pointer;
+    }
+    button:hover, .button:hover { background: var(--green-dark); }
+    button:disabled { background: #8aa094; cursor: default; }
+    #buy {
+      display: block;
+      width: 100%;
+      background: linear-gradient(180deg, #7a73ff 0%, #635bff 100%);
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 1.05rem;
+      padding: 14px 18px;
+    }
+    #buy:hover { background: #544be0; }
+    #buy[hidden] { display: none; }
+    .trust, .ship-note, .powered {
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+    .trust { display: flex; align-items: center; justify-content: center; gap: 6px; }
+    .trust svg { flex: none; }
+    .brands {
+      display: flex;
+      justify-content: center;
+      gap: 6px;
+      margin-top: 10px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 22px;
+      padding: 0 5px;
+      border: 1px solid #e4e4e4;
+      border-radius: 3px;
+      background: #fff;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      font-size: 9px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      line-height: 1;
+    }
+    .visa { color: #1a1f71; font-style: italic; font-size: 11px; letter-spacing: 0; }
+    .mc { width: 32px; padding: 0; gap: 0; }
+    .mc span { width: 12px; height: 12px; border-radius: 50%; }
+    .mc span:first-child { background: #eb001b; }
+    .mc span:last-child { background: #f79e1b; margin-left: -5px; }
+    .amex { color: #fff; background: #2e77bc; border-color: #2e77bc; font-size: 8px; }
+    .disc { color: #1a1a1a; }
+    .disc span { color: #f76b1c; }
+    .stripe-mark {
+      display: inline-block;
+      margin-left: 4px;
+      padding: 1px 6px 2px;
+      border-radius: 4px;
+      background: #635bff;
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      text-decoration: none;
+      line-height: 1.2;
+    }
+    #buy-message { margin: 8px 0 0; font-family: "Segoe UI", system-ui, sans-serif; }
+    #buy-message:empty { display: none; }
+    #checkout { margin-top: 18px; }
+    #checkout:empty { display: none; }
+    h2 { font-size: 1.7rem; margin: 2.2rem 0 0.6rem; }
+    ul { padding-left: 1.2rem; }
+    figure { margin: 1.2rem 0; }
+    figcaption { color: var(--muted); font-size: 0.95rem; }
+    .plants { display: grid; gap: 12px; }
+    footer { margin-top: 48px; color: var(--muted); font-size: 0.95rem; }
+    @media (max-width: 720px) {
+      header h1 { font-size: 2.4rem; }
+      .buy { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Restoria</h1>
+    </header>
+
+    <section class="buy">
+      <img src="img/WhiteBoxSmall.jpg" alt="Restoria game box">
+      <div>
+        <p class="blurb">A light-weight strategy card game that incorporates community ecology concepts and features 31 species of California plants. Designed by Lina Aoyama, an ecologist, and Brent Batas, a lifelong game designer.</p>
+        <p class="price">$24.99</p>
+        <button id="buy" type="button">Pay with Stripe</button>
+        <p class="trust">
+          <svg width="12" height="14" viewBox="0 0 12 14" aria-hidden="true" fill="#8a8478"><path d="M6 0a3.5 3.5 0 0 0-3.5 3.5V5H2a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H9.5V3.5A3.5 3.5 0 0 0 6 0Zm2 5H4V3.5a2 2 0 1 1 4 0V5Z"/></svg>
+          Secure checkout encrypted by Stripe
+        </p>
+        <div class="brands" aria-label="Visa, Mastercard, American Express, and Discover">
+          <span class="brand visa">VISA</span>
+          <span class="brand mc" aria-hidden="true"><span></span><span></span></span>
+          <span class="brand amex">AMEX</span>
+          <span class="brand disc">DISC<span>OVER</span></span>
+        </div>
+        <p class="powered">Powered by <a class="stripe-mark" href="https://stripe.com">stripe</a></p>
+        <p class="ship-note">US shipping added at checkout, about $9–$14.</p>
+        <p id="buy-message" role="status"></p>
+        <div id="checkout"></div>
+      </div>
+    </section>
+
+    <h2>What is Restoria?</h2>
+    <img src="img/Main_820.jpg" alt="Restoria cards and pieces laid out on a table">
+    <p>You take on the role of an ecologist working to restore grasslands. Your challenge is to build a species-diverse plant community that is resilient to wildfires, drought, and other events.</p>
+    <ul>
+      <li><strong>Native &amp; Non-Native Plants:</strong> Draw from 31 different species of hand-illustrated Plant cards from California grasslands.</li>
+      <li><strong>Strategic Gameplay:</strong> Each species of plant has unique abilities and characteristics, based on real-life research. Each plant species has different interactions with adjacent plants, so the way you arrange your community makes a big difference! Additionally, play Land Management cards, such as prescribed burns or grazing, to remove Invasive Species or nurture your community in other ways.</li>
+      <li><strong>Educational:</strong> All plants are referred to by latin names, and game mechanics incorporate the four high-level processes of community ecology: selection, drift, speciation, and dispersal.</li>
+    </ul>
+
+    <h2>Box contents</h2>
+    <p>Restoria is portable and quick to set up. <strong>It was designed to be easily taken along fieldwork &amp; camping trips.</strong></p>
+    <ul>
+      <li>56 plant cards</li>
+      <li>18 invasive cards</li>
+      <li>30 event cards</li>
+      <li>12 land management cards</li>
+      <li>8 goal cards</li>
+      <li>6 guide cards</li>
+      <li>48 nutrient cubes</li>
+      <li>6 biomass counters</li>
+      <li>1 die</li>
+    </ul>
+
+    <h2>Game overview</h2>
+    <p>In the middle of the table is the plant nursery, five plant cards shared between all players. Next to the nursery are the events deck and the plants deck. Off to the side are nutrients, your money. Each player has a biomass counter to track their score.</p>
+    <figure>
+      <img src="img/Layout.jpg" alt="Table layout of a typical game of Restoria">
+      <figcaption>Table layout of a typical game.</figcaption>
+    </figure>
+    <p>Each turn, players choose plants from the nursery to add to their community. Special events, such as rainy days or wildfires, also occur each turn, affecting plants in different ways.</p>
+    <p>Once a player's community reaches 10 plant cards, the game ends after the last player finishes their turn. The player whose community attains the highest biomass wins.</p>
+    <p>The game can be played with 2–6 players, takes 45–75 minutes, and is recommended for ages 9+. There are many paths to victory. The rules are fairly simple, learnable even after a long day's work in the field.</p>
+
+    <h2>Plants</h2>
+    <p>Plants are the main cards you'll play. They cost nutrients and give you biomass. Each plant must be played adjacent to an existing plant. You choose which plants to take and where they sit in relation to each other.</p>
+    <p>Every plant has a unique ability and characteristics.</p>
+    <ul>
+      <li><strong>Ability.</strong> Scoring bonuses or interactions with other plants in your community. Each ability is based on a real-world trait of that species. Black mustard (<em>Brassica nigra</em>) has allelopathy, which hinders the growth of adjacent plants, just as it does in real life.</li>
+      <li><strong>Characteristics.</strong> These decide whether the plant is affected by events such as rain, wildfire, or erosion. Grasses tend to grow quickly when it rains, and they are more vulnerable to wildfires than forbs. Non-native plants tend to provide lots of biomass, and they are susceptible to erosion. Tall plants thrive on sunny days and cast shade on smaller plants nearby.</li>
+    </ul>
+    <p>Each plant features hand-painted artwork. Playing Restoria, you can learn the scientific names of plants, get a sense of their ecological significance, and perhaps recognize them on your next walk.</p>
+    <div class="plants">
+      <img src="img/AllPlants1.png" alt="Hand-painted plant cards, set one">
+      <img src="img/AllPlants2.png" alt="Hand-painted plant cards, set two">
+      <img src="img/AllPlants3.png" alt="Hand-painted plant cards, set three">
+      <img src="img/AllPlants4.png" alt="Hand-painted plant cards, set four">
+    </div>
+
+    <h2>Our story</h2>
+    <img src="img/Family.jpg" alt="Lina and Brent with their family">
+    <p>Restoria is co-designed by Lina Aoyama Batas, a plant ecologist, and her husband, Brent Batas, a video game designer who develops Legion TD 2. They play tabletop games in their spare time, and Brent designs tabletop games as a hobby.</p>
+    <p>When the pandemic hit in 2020, Lina started painting California plants. Brent suggested using those illustrations to make a card game. They worked on the gameplay over several months, and kept revising the cards so the game would be scientifically sound and playable. Friends playtested it so it would be fun and accessible. They wanted a game they would enjoy with friends, and one portable enough for fieldwork or camping trips.</p>
+    <p>Over several years they playtested Restoria themselves and with Lina's University of Oregon labmates. After five major iterations over four years, they settled on a final version and worked with a manufacturer to produce it.</p>
+    <p>The hope is to see Restoria in science classrooms and public parks, where it can inspire a love of science, teach players a thing or two about plants, and most of all be a fun game to play.</p>
+    <figure>
+      <img src="img/playing-medium.jpg" alt="People playing Restoria at a lab retreat">
+      <figcaption>Photo credit: Calvin Penkauskas. Lab retreat, August 2021.</figcaption>
+    </figure>
+
+    <footer>
+      <p>Restoria is made by Lina Aoyama Batas and Brent Batas. <a href="https://www.linaaoyama.com/content/restoria">Lina's site</a></p>
+    </footer>
+  </div>
+  <script>
+    const buy = document.querySelector("#buy");
+    const buyMessage = document.querySelector("#buy-message");
+    let starting = false;
+
+    async function updateShipping(sessionId, shippingAddress) {
+      const response = await fetch("/api/shipping", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          checkout_session_id: sessionId,
+          shipping_details: shippingAddress,
+        }),
+      });
+      const result = await response.json();
+      if (result.type === "error") {
+        throw new Error(result.message || "Could not add shipping for that address.");
+      }
+      return result;
+    }
+
+    buy.addEventListener("click", async () => {
+      if (starting) return;
+      starting = true;
+      buy.disabled = true;
+      buyMessage.textContent = "";
+
+      const configResponse = await fetch("/api/config");
+      const config = await configResponse.json();
+      if (!config.forSale) {
+        buy.textContent = "Sold out";
+        buyMessage.textContent = "Restoria is sold out right now.";
+        return;
+      }
+      if (!config.checkoutReady) {
+        buy.disabled = false;
+        starting = false;
+        buyMessage.textContent = "Checkout is not connected yet.";
+        return;
+      }
+
+      const startedResponse = await fetch("/api/checkout", { method: "POST" });
+      const started = await startedResponse.json();
+      if (!startedResponse.ok) {
+        buy.disabled = false;
+        starting = false;
+        buyMessage.textContent = started.error || "Could not start checkout.";
+        return;
+      }
+
+      if (!window.Stripe) {
+        await new Promise((resolve, reject) => {
+          const script = document.createElement("script");
+          script.src = "https://js.stripe.com/endive/stripe.js";
+          script.onload = resolve;
+          script.onerror = () => reject(new Error("Could not load checkout."));
+          document.head.appendChild(script);
+        }).catch((error) => {
+          buy.disabled = false;
+          starting = false;
+          buyMessage.textContent = error.message;
+        });
+        if (!window.Stripe) return;
+      }
+
+      try {
+        const stripe = Stripe(config.publishableKey);
+        const checkout = await stripe.initCheckoutFormSdk({
+          clientSecret: started.clientSecret,
+          appearance: { theme: "stripe", variables: { colorPrimary: "#1f4d38" } },
+        });
+        const form = checkout.createForm({ layout: "expanded" });
+        form.mount("#checkout");
+        buy.hidden = true;
+
+        let addressPriced = false;
+        form.on("change", async (event) => {
+          const complete = event.status?.shippingAddress?.complete;
+          if (complete && !addressPriced) {
+            addressPriced = true;
+            const loaded = await checkout.loadActions();
+            if (loaded.type !== "success") {
+              addressPriced = false;
+              return;
+            }
+            try {
+              await loaded.actions.runServerUpdate(() =>
+                updateShipping(loaded.actions.getSession().id, event.value.shippingAddress)
+              );
+            } catch (error) {
+              addressPriced = false;
+              buyMessage.textContent = error.message || "Could not add shipping for that address.";
+            }
+          } else if (!complete && addressPriced) {
+            addressPriced = false;
+          }
+        });
+
+        const loaded = await checkout.loadActions();
+        if (loaded.type === "success") {
+          form.on("confirm", async (event) => {
+            try {
+              await loaded.actions.confirm({ formConfirmEvent: event });
+            } catch (error) {
+              buyMessage.textContent = error.message || "Could not complete payment.";
+            }
+          });
+        }
+      } catch (error) {
+        buy.disabled = false;
+        starting = false;
+        buyMessage.textContent = error.message || "Could not open checkout.";
+      }
+    });
+  </script>
+</body>
+</html>

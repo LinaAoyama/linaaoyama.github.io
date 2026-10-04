@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order received — Restoria</title>
+  <style>
+    body {
+      margin: 0;
+      color: #1d2a22;
+      background: #f4efe4;
+      font-family: Georgia, "Iowan Old Style", Palatino, serif;
+      line-height: 1.55;
+    }
+    main { max-width: 640px; margin: 0 auto; padding: 64px 20px; }
+    a { color: #1f4d38; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Thank you</h1>
+    <p id="status">If your payment went through, Stripe will email you a receipt. We'll pack Restoria and ship it from Healdsburg.</p>
+    <p><a href="/">Back to Restoria</a></p>
+  </main>
+  <script>
+    const params = new URLSearchParams(location.search);
+    const sessionId = params.get("session_id");
+    const status = document.querySelector("#status");
+    if (sessionId) {
+      fetch("/api/session?session_id=" + encodeURIComponent(sessionId))
+        .then((response) => response.json())
+        .then((order) => {
+          if (order.payment_status === "paid") {
+            const total = (order.amount_total / 100).toFixed(2);
+            status.textContent = "Payment received ($" + total + "). Stripe will email you a receipt, and we'll ship Restoria from Healdsburg.";
+          } else if (order.payment_status) {
+            status.textContent = "This payment is not complete yet. You can go back and try checkout again.";
+          }
+        })
+        .catch(() => {});
+    }
+  </script>
+</body>
+</html>
