@@ -3,112 +3,81 @@ layout: page
 title: Restoria
 ---
 
-<div style="border: 1px solid #ddd; padding: 20px; max-width: 800px; display: flex; align-items: flex-start; flex-wrap: wrap;">
-    <!-- Product Image -->
-    <a href="https://www.amazon.com/Lina-Brent-Games-Restoria-Ecology/dp/B0F54MMY5H" target="_blank" style="text-decoration: none; flex: 0 0 300px;">
-        <img src="https://www.linaaoyama.com/assets/img/restoria/WhiteBoxSmall.jpg" alt="Restoria" style="width: 100%; max-width: 300px; height: auto; margin-right: 20px;">
-    </a> 
+<p class="restoria-intro">
+My husband and I created a board game, Restoria, as a way to communicate my California grasslands research to friends, family, and anyone interested in California native plants. See the website below to learn more.
+</p>
 
-    <!-- Text and Button Container -->
-    <div style="flex-grow: 1; flex-basis: 0;">
-        <!-- Product Title (optional) -->
-        <h3 style="font-size: 16px; color: #333; font-family: Arial, sans-serif; margin-top: 20px;">Restoria</h3>
-
-        <!-- Product Description -->
-        <p style="font-size: 1rem;">
-            A light-weight strategy card game that incorporates community ecology concepts and features 31 species of California plants. Designed by Lina Aoyama Batas, an ecologist, and Brent Batas, a lifelong game designer.
-        </p>
-
-        <!-- Buy on Amazon Button -->
-        <a href="https://www.amazon.com/Lina-Brent-Games-Restoria-Ecology/dp/B0F54MMY5H" target="_blank" style="display: inline-block; background-color: #FF9900; color: #202020; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-family: Arial, sans-serif; font-size: 14px;">
-            <img src="https://www.linaaoyama.com/assets/img/restoria/AmazonA.png" height="18px" alt="Amazon logo" /> Buy on Amazon
-        </a>
-    </div>
+<div class="restoria-card">
+  <a href="https://playrestoria.pages.dev" aria-label="Restoria game box">
+    <img src="/assets/img/restoria/WhiteBoxSmall.jpg" alt="">
+  </a>
+  <div>
+    <h2>Restoria</h2>
+    <p>A light-weight strategy card game that incorporates community ecology concepts and features 31 species of California plants.</p>
+    <a class="restoria-button" href="https://playrestoria.pages.dev">View Website</a>
+  </div>
 </div>
 
-<!-- Responsive CSS -->
 <style>
-    @media (max-width: 768px) {
-        div[style*="display: flex"] {
-            flex-direction: column;
-        }
-
-        div[style*="display: flex"] a[style*="flex: 0 0 300px"] {
-            margin-right: 0;
-            margin-bottom: 20px; /* Add space between image and text when stacked */
-        }
+  .restoria-intro {
+    text-align: center;
+    color: #5a5a5a;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    max-width: 40rem;
+    margin: 0 auto 2rem;
+  }
+  .restoria-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.75rem;
+    border: 1px solid #e6e6e6;
+    padding: 1.35rem 1.5rem 1.5rem;
+    max-width: 760px;
+    margin: 0 auto 2.5rem;
+  }
+  .restoria-card img {
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .restoria-card h2 {
+    margin: 0.15rem 0 0.7rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #222;
+  }
+  .restoria-card p {
+    margin: 0 0 1.15rem;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.98rem;
+    line-height: 1.5;
+    color: #444;
+  }
+  .restoria-card a.restoria-button {
+    display: inline-block;
+    background: #f5a022;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 0.55rem 1.15rem;
+    border-radius: 4px;
+  }
+  .restoria-card a.restoria-button:hover,
+  .restoria-card a.restoria-button:focus {
+    background: #e09010;
+    color: #fff;
+    text-decoration: none;
+  }
+  @media (max-width: 600px) {
+    .restoria-card {
+      flex-direction: column;
     }
+    .restoria-card img {
+      width: min(100%, 300px);
+    }
+  }
 </style>
-
-### What is Restoria? ###
-
-<img src="/../../assets/img/restoria/Main_820.jpg" width="820">
-
-**Restoria** is a tabletop game in which you take on the role of an ecologist working to restore grasslands. Your challenge is to build a species diverse plant community that is resilient to wildfires, drought, and other events.
-
-- Draw from 31 different Plant cards, each with abilities and characteristics based on real-life research. 
-- Each plant species has different interactions with adjacent plants, so where you place each plant matters.
-- Play Land Management cards, such as prescribed burns or grazing, to remove Invasive Species or nurture your community in other ways.
-
-The game's mechanics incorporate the four high-level processes of community ecology: selection, drift, speciation, and dispersal, making Restoria not only a strategic challenge, but an educational experience, too.
-
-### Box Contents ###
-
-Restoria is portable and quick to set up. It was designed to be easily taken along fieldwork & camping trips.
-- (56) Plant cards
-- (18) Invasive cards
-- (30) Event cards
-- (12) Land Management cards
-- (8) Goal cards
-- (6) Guide cards
-- (48) Nutrient cubes
-- (6) Biomass counters
-- (1) Dice
-
-### Game Overview ###
-
-In the middle of the table is the plant **Nursery**, consisting of 5 plant cards shared between all players. Next to the Nursery are the **Events** deck and **Plants** deck. Off to the side are **Nutrients** (your "money"). Finally, each player has a **Biomass** counter to track their score.
-
-<img src="/../../assets/img/restoria/Layout.jpg">
-<div class="caption">Table layout of a typical game.</div>
-
-Each turn, players choose plants from the Nursery to add to their community. Special events, such as rainy days or wildfires, also occur each turn, affecting plants in different ways.
-
-Once a player's community reaches 10 plant cards, the game ends after the last player finishes their turn. The player whose community attains the highest biomass wins the game.
-
-The game can be played with **2–6** players, takes **45–75** minutes to play, and is recommended for ages **9+**. There are many paths to victory, which gives the game high replay value. The rules are fairly simple, too – learnable even after a long day's work in the field.
-
-### Plants ###
-
-Plants are the main cards you'll play. 
-
-Plants cost Nutrients and give you Biomass. Each plant must be played adjacent to an existing plant; when strategizing, you should take into account not only which plants you choose, but where you place them in relation to each other. 
-
-Every plant also has a unique ability, as well as characteristics:
-
-- **Ability**: provides scoring bonuses or interactions with other plants in your community. Typically, you'll try to place your plants in such a way to maximize their abilities. Each plant's ability is based on real-world traits of that species. For example, black mustard (Brassica nigra) has the allelopathy ability, which hinders the growth of adjacent plants, just like in real life!
-
-- **Characteristics**: determine whether the plant is affected by various events (e.g. rain, wildfire, erosion, etc.). Like abilities, these are also based on real-world science. For example, grasses tend to grow quickly when it rains, but are also more vulnerable to wildfires than forbs. Non-native plants tend to provide lots of biomass, but are susceptible to erosion. Tall plants thrive on sunny days, but cast shade on smaller plants nearby. 
-
-Moreover, each plant features hand-painted artwork. Just by playing Restoria, you can learn the scientific names of plants, get a sense of their ecological significance, and perhaps recognize them on your next walk or hike.
-
-<img src="/../../assets/img/restoria/AllPlants1.png">
-<img src="/../../assets/img/restoria/AllPlants2.png">
-<img src="/../../assets/img/restoria/AllPlants3.png">
-<img src="/../../assets/img/restoria/AllPlants4.png">
-
-### Our Story ###
-<img src="/../../assets/img/restoria/Family.jpg">
-
-Restoria is co-designed by **Lina Aoyama Batas**, a plant ecologist, and her husband, **Brent Batas**, a full-time video game designer who develops Legion TD 2. We enjoy playing tabletop games in our spare time, and Brent designs tabletop games as a hobby. 
-
-When the pandemic hit in 2020, I started painting California plants in my free time. Brent had a brilliant idea to use those illustrations to make our own card game. We collaborated on the gameplay over several months, and iteratively improved the cards to make the game scientifically sound and playable. Our friends helped us playtest the game to assure that it is not only fun but accessible to everyone. In the end, we wanted to make a game that we would enjoy playing with our friends. We also made a conscious decision to make it portable, so we can bring it to fieldwork or camping trips. 
-
-Over several years, we playtested Restoria ourselves as well as with Lina's University of Oregon labmates. After five major iterations over four years, we settled on a final version and worked together with a manufacturer to bring the game to life. As of October 2024, it is now purchasable on Amazon.
-
-Our dream is to see Restoria on the shelves of science classrooms and public parks, where it will inspire a love of science, teach players a thing or two about plants, and most of all, be a fun game to play!
-
-<img src="/../../assets/img/restoria/playing-medium.jpg">
-<div class="caption">
-Photo credit: Calvin Penkauskas. Lab retreat August 2021
-</div>
