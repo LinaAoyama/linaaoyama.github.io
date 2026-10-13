@@ -131,6 +131,39 @@
     }
     #buy-message { margin: 8px 0 0; font-family: "Segoe UI", system-ui, sans-serif; }
     #buy-message:empty { display: none; }
+    .qty {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      margin: 14px 0 0;
+      font-family: "Segoe UI", system-ui, sans-serif;
+    }
+    .qty.visible { display: flex; }
+    .qty span:first-child { margin-right: 4px; }
+    .qty button {
+      width: 36px;
+      height: 36px;
+      padding: 0;
+      border-radius: 8px;
+      font-size: 1.25rem;
+      line-height: 1;
+    }
+    #qty-count {
+      width: 3rem;
+      height: 36px;
+      padding: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: inherit;
+      font: inherit;
+      font-size: 1.05rem;
+      text-align: center;
+    }
+    #qty-count:focus {
+      outline: 2px solid var(--green);
+      border-color: var(--green);
+    }
     #checkout { margin-top: 18px; }
     #checkout:empty { display: none; }
     h2 { font-size: 1.7rem; margin: 2.2rem 0 0.6rem; }
@@ -169,6 +202,12 @@
         </div>
         <p class="powered">Powered by <a class="stripe-mark" href="https://stripe.com">stripe</a></p>
         <p id="buy-message" role="status"></p>
+        <div class="qty" id="qty">
+          <span>Copies</span>
+          <button type="button" id="qty-minus" aria-label="Fewer copies">−</button>
+          <input id="qty-count" type="text" inputmode="numeric" autocomplete="off" spellcheck="false" aria-label="Number of copies" value="1">
+          <button type="button" id="qty-plus" aria-label="More copies">+</button>
+        </div>
         <div id="checkout"></div>
       </div>
     </section>
@@ -239,16 +278,23 @@
   <script>
     const buy = document.querySelector("#buy");
     const buyMessage = document.querySelector("#buy-message");
+    const qty = document.querySelector("#qty");
+    const qtyCount = document.querySelector("#qty-count");
+    const qtyMinus = document.querySelector("#qty-minus");
+    const qtyPlus = document.querySelector("#qty-plus");
+    const MAX_COPIES = 36;
     let starting = false;
 
-    async function updateShipping(sessionId, shippingAddress) {
+    async function updateShipping(sessionId, shippingAddress, quantity) {
+      const payload = {
+        checkout_session_id: sessionId,
+        quantity,
+      };
+      if (shippingAddress) payload.shipping_details = shippingAddress;
       const response = await fetch("/api/shipping", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({
-          checkout_session_id: sessionId,
-          shipping_details: shippingAddress,
-        }),
+        body: JSON.stringify(payload),
       });
       const result = await response.json();
       if (result.type === "error") {
@@ -307,37 +353,164 @@
           clientSecret: started.clientSecret,
           appearance: { theme: "stripe", variables: { colorPrimary: "#1f4d38" } },
         });
-        const form = checkout.createForm({ layout: "expanded" });
+        const form = checkout.createForm({
+          layout: "expanded",
+          // Link's "Pay securely" button flashes in and out when the total
+          // changes, and wallets skip the shipping quote. Keep payment
+          // methods in the form below instead.
+          expressCheckout: {
+            paymentMethods: {
+              amazonPay: "never",
+              applePay: "never",
+              googlePay: "never",
+              klarna: "never",
+              link: "never",
+              paypal: "never",
+            },
+          },
+        });
         form.mount("#checkout");
         buy.hidden = true;
+        qty.classList.add("visible");
 
-        let addressPriced = false;
-        form.on("change", async (event) => {
-          const complete = event.status?.shippingAddress?.complete;
-          if (complete && !addressPriced) {
-            addressPriced = true;
-            const loaded = await checkout.loadActions();
-            if (loaded.type !== "success") {
-              addressPriced = false;
-              return;
+        let addressComplete = false;
+        let shippingAddress = null;
+        let quotedKey = "max:1";
+        let chain = Promise.resolve();
+
+        async function applyShipping(force) {
+          const loaded = await checkout.loadActions();
+          if (loaded.type !== "success") return;
+          const session = loaded.actions.getSession();
+          const quantity = session.lineItems?.[0]?.quantity || 1;
+          const postal = addressComplete ? shippingAddress?.address?.postal_code || "" : "";
+          const key = (addressComplete ? postal : "max") + ":" + quantity;
+          if (!force && key === quotedKey) return;
+          await loaded.actions.runServerUpdate(() =>
+            updateShipping(session.id, addressComplete ? shippingAddress : null, quantity)
+          );
+          quotedKey = key;
+        }
+
+        function syncShipping(force) {
+          const run = chain.then(() => applyShipping(force));
+          chain = run.then(() => {}, () => {});
+          return run;
+        }
+
+        let desired = 1;
+        let applied = 1;
+        let qtyTimer = 0;
+        let flushing = null;
+
+        function clampCopies(quantity) {
+          return Math.min(MAX_COPIES, Math.max(1, quantity || 1));
+        }
+
+        function showQuantity(quantity) {
+          const copies = clampCopies(quantity);
+          desired = copies;
+          qtyCount.value = String(copies);
+          qtyMinus.disabled = copies <= 1;
+          qtyPlus.disabled = copies >= MAX_COPIES;
+        }
+
+        function onQtyError(error) {
+          buyMessage.textContent = error.message || "Could not change the number of copies.";
+        }
+
+        function scheduleQuantity() {
+          clearTimeout(qtyTimer);
+          qtyTimer = setTimeout(() => {
+            flushQuantity().catch(onQtyError);
+          }, 280);
+        }
+
+        function setQuantity(quantity) {
+          showQuantity(quantity);
+          buyMessage.textContent = "";
+          scheduleQuantity();
+        }
+
+        async function flushQuantity() {
+          if (flushing) return flushing;
+          clearTimeout(qtyTimer);
+          flushing = (async () => {
+            while (desired !== applied) {
+              const target = desired;
+              const loaded = await checkout.loadActions();
+              if (loaded.type !== "success") return;
+              const lineItem = loaded.actions.getSession().lineItems?.[0];
+              if (!lineItem) return;
+              if (lineItem.quantity !== target) {
+                const updated = await loaded.actions.updateLineItemQuantity({
+                  lineItem: lineItem.id,
+                  quantity: target,
+                });
+                if (updated.type !== "success") {
+                  showQuantity(applied);
+                  throw new Error(updated.error?.message || "Could not change the number of copies.");
+                }
+              }
+              applied = target;
+              if (desired !== applied) continue;
+              await syncShipping(true);
             }
-            try {
-              await loaded.actions.runServerUpdate(() =>
-                updateShipping(loaded.actions.getSession().id, event.value.shippingAddress)
-              );
-            } catch (error) {
-              addressPriced = false;
-              buyMessage.textContent = error.message || "Could not add shipping for that address.";
-            }
-          } else if (!complete && addressPriced) {
-            addressPriced = false;
+          })();
+          try {
+            await flushing;
+          } finally {
+            flushing = null;
+            if (desired !== applied) scheduleQuantity();
           }
+        }
+
+        qtyMinus.addEventListener("click", () => setQuantity(desired - 1));
+        qtyPlus.addEventListener("click", () => setQuantity(desired + 1));
+        qtyCount.addEventListener("focus", () => qtyCount.select());
+        qtyCount.addEventListener("input", () => {
+          const raw = qtyCount.value.replace(/\D/g, "");
+          if (raw !== qtyCount.value) qtyCount.value = raw;
+          if (!raw || Number(raw) < 1) return;
+          const copies = Math.min(MAX_COPIES, Number(raw));
+          if (copies !== Number(raw)) qtyCount.value = String(copies);
+          desired = copies;
+          qtyMinus.disabled = copies <= 1;
+          qtyPlus.disabled = copies >= MAX_COPIES;
+          buyMessage.textContent = "";
+          scheduleQuantity();
+        });
+        qtyCount.addEventListener("blur", () => {
+          const raw = qtyCount.value.replace(/\D/g, "");
+          setQuantity(raw ? Number(raw) : desired);
+        });
+        qtyCount.addEventListener("keydown", (event) => {
+          if (event.key === "ArrowUp") {
+            event.preventDefault();
+            setQuantity(desired + 1);
+          } else if (event.key === "ArrowDown") {
+            event.preventDefault();
+            setQuantity(desired - 1);
+          } else if (event.key === "Enter") {
+            qtyCount.blur();
+          }
+        });
+        showQuantity(1);
+
+        form.on("change", (event) => {
+          addressComplete = Boolean(event.status?.shippingAddress?.complete);
+          if (addressComplete) shippingAddress = event.value.shippingAddress;
+          syncShipping(false).catch((error) => {
+            buyMessage.textContent = error.message || "Could not add shipping for that address.";
+          });
         });
 
         const loaded = await checkout.loadActions();
         if (loaded.type === "success") {
           form.on("confirm", async (event) => {
             try {
+              await flushQuantity();
+              await syncShipping(true);
               await loaded.actions.confirm({ formConfirmEvent: event });
             } catch (error) {
               buyMessage.textContent = error.message || "Could not complete payment.";

@@ -32,7 +32,11 @@
         .then((order) => {
           if (order.payment_status === "paid") {
             const total = (order.amount_total / 100).toFixed(2);
-            status.textContent = "Payment received ($" + total + "). Stripe will email you a receipt, and we'll ship Restoria from Healdsburg.";
+            const copies = Number.isInteger(order.quantity) ? order.quantity : 1;
+            const shipment = copies > 1
+              ? "we'll ship " + copies + " copies from Healdsburg."
+              : "we'll ship Restoria from Healdsburg.";
+            status.textContent = "Payment received ($" + total + "). Stripe will email you a receipt, and " + shipment;
           } else if (order.payment_status) {
             status.textContent = "This payment is not complete yet. You can go back and try checkout again.";
           }

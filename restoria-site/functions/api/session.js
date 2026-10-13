@@ -1,4 +1,5 @@
 import { json, stripeGet } from "../_lib/stripe.js";
+import { boxCount } from "../_lib/shipping.js";
 
 const SESSION_ID = /^cs_(test|live)_[A-Za-z0-9]+$/;
 
@@ -13,15 +14,23 @@ export async function onRequestGet(context) {
     return json({ error: "Unknown order." }, 400);
   }
 
-  const existing = await stripeGet(env, "/checkout/sessions/" + sessionId);
+  const existing = await stripeGet(
+    env,
+    "/checkout/sessions/" + sessionId + "?expand[]=line_items"
+  );
   if (!existing.ok || existing.data.metadata?.product !== "restoria") {
     return json({ error: "Unknown order." }, 404);
   }
+
+  const quantity = existing.data.line_items?.data?.[0]?.quantity;
+  const copies = Number.isInteger(quantity) && quantity > 0 ? quantity : 1;
 
   return json({
     status: existing.data.status,
     payment_status: existing.data.payment_status,
     amount_total: existing.data.amount_total,
     amount_shipping: existing.data.total_details?.amount_shipping ?? null,
+    quantity: copies,
+    boxes: boxCount(copies),
   });
 }

@@ -1,5 +1,5 @@
 import { json, stripeForm } from "../_lib/stripe.js";
-import { GAME_PRICE_CENTS, MAX_SHIPPING_CENTS } from "../_lib/shipping.js";
+import { GAME_PRICE_CENTS, MAX_COPIES, MAX_SHIPPING_CENTS } from "../_lib/shipping.js";
 
 export async function onRequestPost(context) {
   const { request, env } = context;
@@ -14,6 +14,9 @@ export async function onRequestPost(context) {
     "billing_address_collection": "auto",
     "shipping_address_collection[allowed_countries][0]": "US",
     "line_items[0][quantity]": "1",
+    "line_items[0][adjustable_quantity][enabled]": "true",
+    "line_items[0][adjustable_quantity][minimum]": "1",
+    "line_items[0][adjustable_quantity][maximum]": String(MAX_COPIES),
     "line_items[0][price_data][currency]": "usd",
     "line_items[0][price_data][unit_amount]": String(GAME_PRICE_CENTS),
     "line_items[0][price_data][product_data][name]": "Restoria",
@@ -24,6 +27,7 @@ export async function onRequestPost(context) {
     "shipping_options[0][shipping_rate_data][fixed_amount][amount]": String(MAX_SHIPPING_CENTS),
     "shipping_options[0][shipping_rate_data][fixed_amount][currency]": "usd",
     "metadata[product]": "restoria",
+    "wallet_options[link][display]": "never",
     return_url: origin + "/thanks.html?session_id={CHECKOUT_SESSION_ID}",
   });
 
