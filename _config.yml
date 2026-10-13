@@ -102,18 +102,18 @@ post_search: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
+navbar-col: "#FFFFFF"
+navbar-text-col: "#2C2C2C"
+navbar-border-col: "#E7E2DA"
+page-col: "#F6F3EE"
 #page-img: "/assets/img/bgimage.png"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+text-col: "#2A2A2A"
+link-col: "#3D6B4F"
+hover-col: "#2A4D38"
+footer-col: "#F3EFE8"
+footer-text-col: "#6B6560"
+footer-link-col: "#2A2A2A"
+footer-hover-col: "#2A4D38"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -126,8 +126,8 @@ footer-hover-col: "#0085A1"
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+site-css:
+  - "/assets/css/custom-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:

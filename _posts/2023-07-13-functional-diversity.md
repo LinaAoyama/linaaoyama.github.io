@@ -2,7 +2,7 @@
 layout: post
 title: Changes belowground  
 subtitle: New Publication
-cover-img: /assets/img/news/greenhouse.jpg
+cover-img: /assets/img/display/news/greenhouse.jpg
 thumbnail-img: /assets/img/news/roots_small.jpg
 share-img: /assets/img/news/roots_small.jpg
 ---

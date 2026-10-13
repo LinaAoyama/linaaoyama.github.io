@@ -2,7 +2,9 @@
 layout: page
 ---
 
-![headshot](/../../assets/img/aboutme/headshot.jpg){: .mx-auto.d-block : width="250"}
+<div class="about-intro">
+<img class="about-photo" src="/assets/img/aboutme/headshot.jpg" alt="Lina Aoyama">
+<div class="about-copy" markdown="1">
 
 I am an interdisciplinary applied ecologist interested in improving the management and restoration of natural 
 and working landscapes in the Western U.S. in the face of increasing threats from climate change, 
@@ -17,3 +19,6 @@ research that includes local communities, underrepresented communities, and land
 I received my BS in Molecular Environmental Biology (2015) and my MS in Rangeland Management (2018) from 
 University of California, Berkeley, and my PhD in Environmental Sciences, Studies, and Policy (2024) from University of Oregon. 
 I moved to Colorado to work at the USDA-ARS as a Science Coordinator for the Long-Term Agroecosystem Research Network.
+
+</div>
+</div>

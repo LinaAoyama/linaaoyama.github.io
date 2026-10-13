@@ -24,7 +24,7 @@ common-js:
 <!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
 {% include head.html %}
 
-<body>
+<body{% if page.body-class %} class="{{ page.body-class }}"{% endif %}>
 
   {% include gtm_body.html %}
 

@@ -2,7 +2,7 @@
 layout: post
 title: Congrats Bronwyn Thomas!
 subtitle: Graduation
-cover-img: /assets/img/news/bronwyn_thomas.jpg
+cover-img: /assets/img/display/news/bronwyn_thomas.jpg
 thumbnail-img: /assets/img/news/bronwyn_lab.jpg
 share-img: /assets/img/news/bronwyn_lab.jpg
 ---

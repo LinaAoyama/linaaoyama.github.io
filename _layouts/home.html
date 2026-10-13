@@ -8,30 +8,25 @@ layout: page
 
 <div class="posts-list">
   {% for post in posts %}
-  <article class="post-preview">
+  <article class="post-preview post-card">
 
-    {%- capture thumbnail -%}
-      {% if post.thumbnail-img %}
-        {{ post.thumbnail-img }}
-      {% elsif post.cover-img %}
+    {%- capture card_img -%}
+      {% if post.cover-img %}
         {% if post.cover-img.first %}
           {{ post.cover-img[0].first.first }}
         {% else %}
           {{ post.cover-img }}
         {% endif %}
-      {% else %}
+      {% elsif post.thumbnail-img %}
+        {{ post.thumbnail-img }}
       {% endif %}
     {% endcapture %}
-    {% assign thumbnail=thumbnail | strip %}
+    {% assign card_img = card_img | strip %}
 
-    {% if site.feed_show_excerpt == false %}
-    {% if thumbnail != "" %}
-    <div class="post-image post-image-normal">
-      <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
-      </a>
-    </div>
-    {% endif %}
+    {% if card_img != "" %}
+    <a class="post-card-media" href="{{ post.url | absolute_url }}">
+      <img src="{{ card_img | absolute_url }}" alt="{{ post.title | strip_html | escape }}">
+    </a>
     {% endif %}
 
     <a href="{{ post.url | absolute_url }}">
@@ -49,23 +44,7 @@ layout: page
       Posted on {{ post.date | date: date_format }}
     </p>
 
-    {% if thumbnail != "" %}
-    <div class="post-image post-image-small">
-      <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
-      </a>
-    </div>
-    {% endif %}
-
     {% unless site.feed_show_excerpt == false %}
-    {% if thumbnail != "" %}
-    <div class="post-image post-image-short">
-      <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-        <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
-      </a>
-    </div>
-    {% endif %}
-
     <div class="post-entry">
       {% assign excerpt_length = site.excerpt_length | default: 50 %}
       {{ post.excerpt | strip_html | truncatewords: excerpt_length }}

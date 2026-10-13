@@ -1,0 +1,365 @@
+/* Layout refresh layered on Beautiful Jekyll. */
+
+body {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+p {
+  line-height: 1.7;
+}
+
+footer {
+  border-top-color: #e7e2da;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  font-weight: 600;
+}
+
+/* Wider reading column, about 1000px, so photos have room. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container-md > .row > .col-lg-10.offset-lg-1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-md > .row > .col-xl-8.offset-xl-2 {
+    flex: 0 0 1000px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Homepage hero fills the space under the navbar. */
+.page-home .intro-header.big-img {
+  min-height: calc(100vh - 3.2rem);
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.page-home .intro-header.big-img .container-md {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.page-home .intro-header.big-img::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(20, 24, 18, 0.55), rgba(20, 24, 18, 0.08) 42%, rgba(20, 24, 18, 0.18));
+  pointer-events: none;
+}
+
+.page-home .intro-header.big-img .page-heading {
+  padding: 3rem 0 4.5rem;
+}
+
+.page-home .intro-header.big-img .page-heading hr {
+  border-width: 1px;
+  max-width: 4rem;
+  box-shadow: none;
+  opacity: 0.85;
+}
+
+@media (min-width: 1200px) {
+  .page-home .intro-header.big-img {
+    min-height: calc(100vh - 5.6875rem);
+  }
+
+  .page-home .intro-header.big-img .page-heading {
+    padding: 4rem 0 5.5rem;
+  }
+}
+
+@media (max-width: 365px) {
+  .page-home .intro-header.big-img {
+    min-height: 0;
+    height: 16rem;
+    display: block;
+  }
+}
+
+.home-intro {
+  display: flex;
+  align-items: center;
+  gap: 2.75rem;
+  padding: 3rem 0 1rem;
+}
+
+.home-intro img,
+.home-portrait {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  flex: none;
+}
+
+.home-copy {
+  min-width: 0;
+}
+
+.home-copy p:first-of-type {
+  margin-top: 0;
+}
+
+.home-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.home-links a,
+a.home-link {
+  display: inline-block;
+  border: 1px solid #3d6b4f;
+  color: #3d6b4f;
+  padding: 0.5rem 1.05rem;
+  text-decoration: none;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.home-links a:hover,
+.home-links a:focus,
+a.home-link:hover,
+a.home-link:focus {
+  background: #3d6b4f;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .home-intro {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding-top: 2rem;
+  }
+
+  .home-intro img,
+  .home-portrait {
+    width: min(100%, 320px);
+    height: auto;
+    aspect-ratio: 1;
+  }
+}
+
+/* About */
+.about-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  margin-top: 0.5rem;
+}
+
+.about-intro img,
+.about-photo {
+  width: 380px;
+  max-width: 42%;
+  height: auto;
+  flex: none;
+}
+
+.about-copy {
+  min-width: 0;
+}
+
+.about-copy p:first-of-type {
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  .about-intro {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .about-intro img,
+  .about-photo {
+    width: min(100%, 380px);
+    max-width: 100%;
+  }
+}
+
+/* Research */
+.research-row {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 0 0 4.5rem;
+}
+
+.research-column-image,
+.research-column-text {
+  flex: 1 1 0;
+  margin: 0;
+  min-width: 0;
+}
+
+.research-column-image {
+  flex: 1.2 1 0;
+}
+
+.research-column-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.research-column-text {
+  font-size: 1.05rem;
+}
+
+.research-column-text h3 {
+  margin-top: 0;
+  margin-bottom: 0.85rem;
+  text-align: left;
+  font-size: 1.35rem;
+}
+
+.research-row .caption {
+  display: block;
+  margin-top: 0.65rem;
+  text-align: left;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #5c574f;
+  line-height: 1.4;
+}
+
+@media (max-width: 767px) {
+  .research-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.85rem;
+    margin-bottom: 3rem;
+  }
+
+  .research-column-image {
+    order: -1;
+    width: 100%;
+  }
+
+  .research-column-text {
+    width: 100%;
+  }
+}
+
+/* News cards */
+.posts-list .post-card {
+  padding: 0 0 2.75rem;
+  margin: 0 0 2.75rem;
+  border-bottom: 1px solid #e4dfd6;
+  overflow: visible;
+}
+
+.posts-list .post-card:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.post-card-media {
+  display: block;
+  margin: 0 0 1.35rem;
+}
+
+.post-card-media img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  filter: none;
+}
+
+.post-card .post-title {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+}
+
+.post-card .post-subtitle {
+  margin-top: 0;
+}
+
+.post-card .post-entry {
+  margin-top: 0.25rem;
+}
+
+/* Restoria */
+.restoria-intro {
+  text-align: center;
+  color: #5c574f;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 40rem;
+  margin: 0.5rem auto 2.5rem;
+}
+
+.restoria-card {
+  display: flex;
+  align-items: center;
+  gap: 2.75rem;
+  margin: 0 auto 2.5rem;
+}
+
+.restoria-card img {
+  width: min(100%, 420px);
+  height: auto;
+  display: block;
+  flex: none;
+}
+
+.restoria-card h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.restoria-card p {
+  margin: 0 0 1.25rem;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #3a3a3a;
+}
+
+.restoria-card a.restoria-button {
+  display: inline-block;
+  background: #f5a022;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+}
+
+.restoria-card a.restoria-button:hover,
+.restoria-card a.restoria-button:focus {
+  background: #e09010;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  .restoria-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+
+  .restoria-card img {
+    width: min(100%, 420px);
+  }
+}

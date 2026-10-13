@@ -5,14 +5,14 @@ title: Research
 
 <div class="research-row">
 <div class="research-column-image">
-<a target="_blank" href="/../../assets/img/research/bluebunch.jpg"><img src="/../../assets/img/research/bluebunch-small.jpg"/></a>
+<a target="_blank" href="/assets/img/research/bluebunch.jpg"><img src="/assets/img/display/research/bluebunch.jpg" alt="Seeded, burned area in Owyhee, ID."/></a>
 <div class="caption">
 Seeded, burned area in Owyhee, ID.
 </div>
 </div>
 
 <div class="research-column-text">
-<h3 style="text-align: center">
+<h3>
 Genetic Diversity of Native Plant Populations
 </h3>
 Seed-based restoration after wildfires is common throughout the Great Basin. Native perennial grass species are often included in the
@@ -24,7 +24,7 @@ by Soda Fire in 2015.
 
 <div class="research-row">
 <div class="research-column-text">
-<h3 style="text-align: center">
+<h3>
 Forward-looking Seed Sourcing
 </h3>
 Seed sourcing is an important decision practitioners make in restoration. Will the plants we seed now persist into the future? 
@@ -38,7 +38,7 @@ Read more on <a target="_blank" href=" https://doi.org/10.1111/rec.14210">climat
 </div>
 
 <div class="research-column-image">
-<a target="_blank" href="/../../assets/img/research/eoarc.jpg"><img src="/../../assets/img/research/eoarc-small.jpg" /></a>
+<a target="_blank" href="/assets/img/research/eoarc.jpg"><img src="/assets/img/display/research/eoarc.jpg" alt="Field experiment at the Northern Great Basin Experimental Range, OR." /></a>
 
 <div class="caption">
 Field experiment at the Northern Great Basin Experimental Range, OR.
@@ -50,14 +50,14 @@ Field experiment at the Northern Great Basin Experimental Range, OR.
 <div class="research-row">
 <div class="research-column-image">
 
-<a target="_blank" href="/../../assets/img/research/roots.jpg"><img src="/../../assets/img/research/roots-small.jpg" /></a>
+<a target="_blank" href="/assets/img/research/roots.jpg"><img src="/assets/img/display/research/roots.jpg" alt="Root harvest at the UO Greenhouse Facility." /></a>
 <div class="caption">
 Root harvest at the UO Greenhouse Facility. 
 </div>
 </div>
 
 <div class="research-column-text">
-<h3 style="text-align: center">
+<h3>
 Functional Diversity and Productivity
 </h3>
 Does functional diversity buffer plant communities from drought? Combining plant response data from a rainfall manipulation experiment 
@@ -71,7 +71,7 @@ Read more on <a target="_blank" href="https://doi.org/10.1111/1365-2435.14394">r
 
 <div class="research-column-text">
 
-<h3 style="text-align: center">
+<h3>
 Application of Modern Coexistence Theory
 </h3>
 How do we know when restoration is successful? Fluctuating populations and changing starting conditions make evaluation of restoration 
@@ -84,7 +84,7 @@ href="https://doi.org/10.1002/eap.2649">this empirical study</a> and <a target="
 </div>
 
 <div class="research-column-image">
-<a target="_blank" href="/../../assets/img/research/lasthenia.jpg"><img src="/../../assets/img/research/lasthenia-small.jpg" /></a>
+<a target="_blank" href="/assets/img/research/lasthenia.jpg"><img src="/assets/img/display/research/lasthenia.jpg" alt="Contra Costa goldfields at Travis Air Force Base, CA. Photo credit: Dr. Akasha Faist" /></a>
 <div class="caption">
 Contra Costa goldfields at Travis Air Force Base, CA. Photo credit: Dr. Akasha Faist
 </div>
@@ -95,14 +95,14 @@ Contra Costa goldfields at Travis Air Force Base, CA. Photo credit: Dr. Akasha F
 <div class="research-row">
 
 <div class="research-column-image">
-<a target="_blank" href="/../../assets/img/research/tejon.jpg"><img src="/../../assets/img/research/tejon-small.jpg" /></a>
+<a target="_blank" href="/assets/img/research/tejon.jpg"><img src="/assets/img/display/research/tejon.jpg" alt="Native flora at Tejon Ranch, CA." /></a>
 <div class="caption">
 Native flora at Tejon Ranch, CA.
 </div>
 </div>
 
 <div class="research-column-text">
-<h3 style="text-align: center">
+<h3>
 Ecological Site Description and Ecosystem Services
 </h3>
 How do we manage for multiple ecosystem services? We found that the Ecological Site Description framework developed primarily to manage forage on 
@@ -116,7 +116,7 @@ and <a target="_blank" href="https://doi.org/10.1111/rec.13353">soil carbon</a>.
 <div class="research-row">
 
 <div class="research-column-text">
-<h3 style="text-align: center">
+<h3>
 Perception of Rangeland Conservation
 </h3>
 What are the barriers and opportunities for rangeland conservation in California? In a patchwork of private and public lands, California's rangeland 
@@ -125,7 +125,7 @@ to understand how they perceive rangeland conservation. Read more on this <a tar
 </div>
 
 <div class="research-column-image">
-<a target="_blank" href="/../../assets/img/research/cow.jpg"><img src="/../../assets/img/research/cow-small.jpg" /></a>
+<a target="_blank" href="/assets/img/research/cow.jpg"><img src="/assets/img/display/research/cow.jpg" alt="Annual grassland and cattle at Tejon Ranch, CA." /></a>
 <div class="caption">
 Annual grassland and cattle at Tejon Ranch, CA.
 </div>

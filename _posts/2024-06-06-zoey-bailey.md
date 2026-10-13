@@ -2,7 +2,7 @@
 layout: post
 title: Congrats Zoey Bailey!
 subtitle: Graduation
-cover-img: /assets/img/news/zoey_bailey.jpg
+cover-img: /assets/img/display/news/zoey_bailey.jpg
 thumbnail-img: /assets/img/news/zoey_bailey_small.jpg
 share-img: /assets/img/news/zoey_bailey_small.jpg
 ---
