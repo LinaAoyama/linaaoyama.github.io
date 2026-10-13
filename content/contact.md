@@ -6,4 +6,4 @@ I love to collaborate with producers, land managers, conservation interest group
 
 I'm also always open to talking to local high school and college students about research opportunities and my pathway to science.
 
-Contact me at <mailto:lina.peninsula@gmail.com>
+Contact me at <mailto:linaaoyama@ucanr.edu>
