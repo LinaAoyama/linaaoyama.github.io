@@ -2,7 +2,7 @@
 layout: post
 title: Snow in May?
 subtitle: May field update
-cover-img: /assets/img/display/news/snowroof.jpg
+cover-img: /assets/img/news/snowroof.jpg
 thumbnail-img: /assets/img/news/snowground.jpg
 share-img: /assets/img/news/snowgrond.jpg
 ---

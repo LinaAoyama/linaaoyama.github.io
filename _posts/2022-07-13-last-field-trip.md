@@ -2,7 +2,7 @@
 layout: post
 title: Last field trip...for now
 subtitle: July field update
-cover-img: /assets/img/display/news/BRTEseeds.jpg
+cover-img: /assets/img/news/BRTEseeds.jpg
 thumbnail-img: /assets/img/news/ELELyr2.jpg
 share-img: /assets/img/news/ELELyr2.jpg
 ---

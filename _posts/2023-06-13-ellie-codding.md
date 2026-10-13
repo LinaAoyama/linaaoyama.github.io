@@ -2,7 +2,7 @@
 layout: post
 title: Congrats Ellie Codding!
 subtitle: Graduation
-cover-img: /assets/img/display/news/ellie_codding.jpg
+cover-img: /assets/img/news/ellie_codding.jpg
 thumbnail-img: /assets/img/news/ellie_codding_small.jpg
 share-img: /assets/img/news/ellie_codding_small.jpg
 ---

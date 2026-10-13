@@ -2,7 +2,7 @@
 layout: post
 title: Applying coexistence theory to restoration
 subtitle: New publication
-cover-img: /assets/img/display/news/vernalpool.jpg
+cover-img: /assets/img/news/vernalpool.jpg
 thumbnail-img: /assets/img/news/LACO.jpeg
 share-img: /assets/img/news/LACO.jpeg
 ---
